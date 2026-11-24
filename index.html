@@ -3564,7 +3564,7 @@ var PLANT_SPEC = {
     {
       "id": "PON-1",
       "instanceable": false,
-      "label": "Platform PON-1 \u2014 drawn under the skid equipment only; platform size and payload per Bell [PLACEHOLDER]",
+      "label": "Platform PON-1 \u2014 deck drawn as the skid modules plus a 0.8 m walkway and the intake well, a drawing only; platform size, payload and draft per Bell [PLACEHOLDER]",
       "nozzles": [],
       "params": {
         "deckColor": 9081497,
@@ -3574,16 +3574,16 @@ var PLANT_SPEC = {
         "floatRadius": 0.62,
         "intakeHeight": 0.4,
         "intakeRadius": 0.11,
-        "length": 13.873,
+        "length": 16.368,
         "moonPool": 1.15,
-        "moonPoolX": 7.6365,
+        "moonPoolX": 7.189,
         "moonPoolZ": 0.4,
         "overboardA": [
-          1.5893,
+          1.1418,
           -1.6
         ],
         "overboardB": [
-          -6.3365,
+          -6.784,
           1.6
         ],
         "railColor": 13094355,
@@ -3594,13 +3594,13 @@ var PLANT_SPEC = {
         "size": 8.0,
         "trimColor": 3817285,
         "waveSpeed": 0.6,
-        "width": 2.4,
+        "width": 4.0,
         "winch": false
       },
       "position": [
         0.0,
         0.0,
-        0.0
+        -0.4475
       ],
       "rotation": [
         0.0,
@@ -6002,7 +6002,7 @@ var PLANT_SPEC = {
       "label": "Column drain, normally closed \u2014 maintenance only \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.5595,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6011,7 +6011,7 @@ var PLANT_SPEC = {
       "id": "S1-PIT-119",
       "jitter": 0.0,
       "position": 0.8805,
-      "size": 1.0,
+      "size": 0.375,
       "type": "pressure",
       "unit": "barg",
       "value": 2.0
@@ -6023,7 +6023,7 @@ var PLANT_SPEC = {
       "label": "Sample point on the column outlet before the split \u2014 sees every step, brine included \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "point": "outlet",
       "position": 0.8197,
-      "size": 1.0,
+      "size": 0.375,
       "type": "sampler"
     },
     {
@@ -6032,7 +6032,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-101",
       "label": "brine inlet \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
       "position": 0.1207,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6043,7 +6043,7 @@ var PLANT_SPEC = {
       "jitter": 0.0,
       "position": 0.4614,
       "readout": false,
-      "size": 1.0,
+      "size": 0.375,
       "type": "flowmeter",
       "unit": "m\u00b3/h",
       "value": 24.75
@@ -6055,7 +6055,7 @@ var PLANT_SPEC = {
       "label": "Balancing valve on the column brine line, hand-set on commissioning \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.6,
       "position": 0.6545,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6064,7 +6064,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-103",
       "label": "fresh water inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.1222,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6073,7 +6073,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.1.water+service_branch.1",
       "id": "S1-CV-125",
       "position": 0.2666,
-      "size": 1.0,
+      "size": 0.375,
       "type": "checkvalve"
     },
     {
@@ -6082,7 +6082,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-102",
       "label": "blow-down air inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.4416,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6091,7 +6091,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.1.air",
       "id": "S1-CV-124",
       "position": 0.7782,
-      "size": 1.0,
+      "size": 0.375,
       "type": "checkvalve"
     },
     {
@@ -6100,7 +6100,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-111",
       "label": "outlet to overboard \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
       "position": 0.6774,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6110,7 +6110,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-110",
       "label": "wash water to overboard (after the back-pressure valve) \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.6832,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6120,7 +6120,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-106",
       "label": "column vent (fill steps only) \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.7619,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6131,7 +6131,7 @@ var PLANT_SPEC = {
       "label": "Float air vent in series with the vent valve (automatic; hand-valve symbol) \u2014 Georg Fischer SYGEF Standard PVDF 591",
       "opening": 1.0,
       "position": 0.9045,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6141,7 +6141,7 @@ var PLANT_SPEC = {
       "label": "Column drain, normally closed \u2014 maintenance only \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.5595,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6150,7 +6150,7 @@ var PLANT_SPEC = {
       "id": "S1-PIT-219",
       "jitter": 0.0,
       "position": 0.8805,
-      "size": 1.0,
+      "size": 0.375,
       "type": "pressure",
       "unit": "barg",
       "value": 2.0
@@ -6162,7 +6162,7 @@ var PLANT_SPEC = {
       "label": "Sample point on the column outlet before the split \u2014 sees every step, brine included \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "point": "outlet",
       "position": 0.8197,
-      "size": 1.0,
+      "size": 0.375,
       "type": "sampler"
     },
     {
@@ -6171,7 +6171,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-201",
       "label": "brine inlet \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
       "position": 0.0719,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6182,7 +6182,7 @@ var PLANT_SPEC = {
       "jitter": 0.0,
       "position": 0.4315,
       "readout": false,
-      "size": 1.0,
+      "size": 0.375,
       "type": "flowmeter",
       "unit": "m\u00b3/h",
       "value": 24.75
@@ -6194,7 +6194,7 @@ var PLANT_SPEC = {
       "label": "Balancing valve on the column brine line, hand-set on commissioning \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.6,
       "position": 0.6353,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6203,7 +6203,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-203",
       "label": "fresh water inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.1774,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6212,7 +6212,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.2.water+service_branch.2",
       "id": "S1-CV-225",
       "position": 0.3126,
-      "size": 1.0,
+      "size": 0.375,
       "type": "checkvalve"
     },
     {
@@ -6221,7 +6221,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-202",
       "label": "blow-down air inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.338,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6230,7 +6230,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.2.air",
       "id": "S1-CV-224",
       "position": 0.7371,
-      "size": 1.0,
+      "size": 0.375,
       "type": "checkvalve"
     },
     {
@@ -6239,7 +6239,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-211",
       "label": "outlet to overboard \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
       "position": 0.7882,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6249,7 +6249,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-210",
       "label": "wash water to overboard (after the back-pressure valve) \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.7052,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6259,7 +6259,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-206",
       "label": "column vent (fill steps only) \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.7759,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6270,7 +6270,7 @@ var PLANT_SPEC = {
       "label": "Float air vent in series with the vent valve (automatic; hand-valve symbol) \u2014 Georg Fischer SYGEF Standard PVDF 591",
       "opening": 1.0,
       "position": 0.9109,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6280,7 +6280,7 @@ var PLANT_SPEC = {
       "label": "Column drain, normally closed \u2014 maintenance only \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.5595,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6289,7 +6289,7 @@ var PLANT_SPEC = {
       "id": "S1-PIT-319",
       "jitter": 0.0,
       "position": 0.8805,
-      "size": 1.0,
+      "size": 0.375,
       "type": "pressure",
       "unit": "barg",
       "value": 2.0
@@ -6301,7 +6301,7 @@ var PLANT_SPEC = {
       "label": "Sample point on the column outlet before the split \u2014 sees every step, brine included \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "point": "outlet",
       "position": 0.8197,
-      "size": 1.0,
+      "size": 0.375,
       "type": "sampler"
     },
     {
@@ -6310,7 +6310,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-301",
       "label": "brine inlet \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
       "position": 0.1207,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6321,7 +6321,7 @@ var PLANT_SPEC = {
       "jitter": 0.0,
       "position": 0.4614,
       "readout": false,
-      "size": 1.0,
+      "size": 0.375,
       "type": "flowmeter",
       "unit": "m\u00b3/h",
       "value": 24.75
@@ -6333,7 +6333,7 @@ var PLANT_SPEC = {
       "label": "Balancing valve on the column brine line, hand-set on commissioning \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.6,
       "position": 0.6545,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6342,7 +6342,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-303",
       "label": "fresh water inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.1222,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6351,7 +6351,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.3.water+service_branch.3",
       "id": "S1-CV-325",
       "position": 0.2666,
-      "size": 1.0,
+      "size": 0.375,
       "type": "checkvalve"
     },
     {
@@ -6360,7 +6360,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-302",
       "label": "blow-down air inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.4416,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6369,7 +6369,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.3.air",
       "id": "S1-CV-324",
       "position": 0.7782,
-      "size": 1.0,
+      "size": 0.375,
       "type": "checkvalve"
     },
     {
@@ -6378,7 +6378,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-311",
       "label": "outlet to overboard \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
       "position": 0.6774,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6388,7 +6388,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-310",
       "label": "wash water to overboard (after the back-pressure valve) \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.6832,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6398,7 +6398,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-306",
       "label": "column vent (fill steps only) \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.7619,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6409,7 +6409,7 @@ var PLANT_SPEC = {
       "label": "Float air vent in series with the vent valve (automatic; hand-valve symbol) \u2014 Georg Fischer SYGEF Standard PVDF 591",
       "opening": 1.0,
       "position": 0.9045,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6419,7 +6419,7 @@ var PLANT_SPEC = {
       "label": "Column drain, normally closed \u2014 maintenance only \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.5595,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6428,7 +6428,7 @@ var PLANT_SPEC = {
       "id": "S1-PIT-419",
       "jitter": 0.0,
       "position": 0.8805,
-      "size": 1.0,
+      "size": 0.375,
       "type": "pressure",
       "unit": "barg",
       "value": 2.0
@@ -6440,7 +6440,7 @@ var PLANT_SPEC = {
       "label": "Sample point on the column outlet before the split \u2014 sees every step, brine included \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "point": "outlet",
       "position": 0.8197,
-      "size": 1.0,
+      "size": 0.375,
       "type": "sampler"
     },
     {
@@ -6449,7 +6449,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-401",
       "label": "brine inlet \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
       "position": 0.0719,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6460,7 +6460,7 @@ var PLANT_SPEC = {
       "jitter": 0.0,
       "position": 0.4315,
       "readout": false,
-      "size": 1.0,
+      "size": 0.375,
       "type": "flowmeter",
       "unit": "m\u00b3/h",
       "value": 24.75
@@ -6472,7 +6472,7 @@ var PLANT_SPEC = {
       "label": "Balancing valve on the column brine line, hand-set on commissioning \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.6,
       "position": 0.6353,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6481,7 +6481,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-403",
       "label": "fresh water inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.1774,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6490,7 +6490,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.4.water+service_branch.4",
       "id": "S1-CV-425",
       "position": 0.3126,
-      "size": 1.0,
+      "size": 0.375,
       "type": "checkvalve"
     },
     {
@@ -6499,7 +6499,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-402",
       "label": "blow-down air inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.338,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6508,7 +6508,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.4.air",
       "id": "S1-CV-424",
       "position": 0.7371,
-      "size": 1.0,
+      "size": 0.375,
       "type": "checkvalve"
     },
     {
@@ -6517,7 +6517,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-411",
       "label": "outlet to overboard \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
       "position": 0.7882,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6527,7 +6527,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-410",
       "label": "wash water to overboard (after the back-pressure valve) \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.7052,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6537,7 +6537,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-406",
       "label": "column vent (fill steps only) \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
       "position": 0.7759,
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "valve"
     },
@@ -6548,7 +6548,7 @@ var PLANT_SPEC = {
       "label": "Float air vent in series with the vent valve (automatic; hand-valve symbol) \u2014 Georg Fischer SYGEF Standard PVDF 591",
       "opening": 1.0,
       "position": 0.9109,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6557,7 +6557,7 @@ var PLANT_SPEC = {
       "id": "S1-PIT-002",
       "jitter": 0.0,
       "position": 0.1682,
-      "size": 1.0,
+      "size": 0.375,
       "type": "pressure",
       "unit": "barg",
       "value": 3.695
@@ -6568,7 +6568,7 @@ var PLANT_SPEC = {
       "id": "S1-XV-023",
       "label": "Brine isolation after the self-cleaning filter S1-\u0424-1: open in operation; the PLC closes it to flush \u0424-1 and the column flow then passes the back-pressure valves \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
       "position": 0.5,
-      "size": 1.0,
+      "size": 0.375,
       "state": "open",
       "type": "valve"
     },
@@ -6579,7 +6579,7 @@ var PLANT_SPEC = {
       "label": "Hand isolation valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.9535,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6589,7 +6589,7 @@ var PLANT_SPEC = {
       "label": "Hand isolation valve, normally open \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 1.0,
       "position": 0.041,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6599,7 +6599,7 @@ var PLANT_SPEC = {
       "label": "Hand isolation valve, normally open \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 1.0,
       "position": 0.2586,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6609,7 +6609,7 @@ var PLANT_SPEC = {
       "label": "Hand isolation valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.97,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6619,7 +6619,7 @@ var PLANT_SPEC = {
       "label": "Hand isolation valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.9535,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6629,7 +6629,7 @@ var PLANT_SPEC = {
       "label": "Hand isolation valve, normally open \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 1.0,
       "position": 0.0409,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6639,7 +6639,7 @@ var PLANT_SPEC = {
       "label": "Hand isolation valve, normally open \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 1.0,
       "position": 0.2585,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6649,7 +6649,7 @@ var PLANT_SPEC = {
       "jitter": 0.0,
       "position": 0.176,
       "readout": false,
-      "size": 1.0,
+      "size": 0.375,
       "type": "flowmeter",
       "unit": "m\u00b3/h",
       "value": 99.0
@@ -6661,7 +6661,7 @@ var PLANT_SPEC = {
       "jitter": 0.0,
       "label": "Brine temperature after the filters; design range 15\u201340 \u00b0C (no heating), the reading shows the low end \u2014 Georg Fischer Signet 2350",
       "position": 0.2169,
-      "size": 1.0,
+      "size": 0.375,
       "type": "temperature",
       "unit": "\u00b0C",
       "value": 15.0
@@ -6673,7 +6673,7 @@ var PLANT_SPEC = {
       "label": "Hand isolation valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.97,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6685,7 +6685,7 @@ var PLANT_SPEC = {
       "position": 0.5,
       "positioner": false,
       "setpoint": "2.9 barg upstream",
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "regulator"
     },
@@ -6698,7 +6698,7 @@ var PLANT_SPEC = {
       "position": 0.5,
       "positioner": false,
       "setpoint": "2.9 barg upstream",
-      "size": 1.0,
+      "size": 0.375,
       "state": "closed",
       "type": "regulator"
     },
@@ -6708,7 +6708,7 @@ var PLANT_SPEC = {
       "id": "S1-PSV-017",
       "position": 0.2615,
       "set": 1.6,
-      "size": 1.0,
+      "size": 0.375,
       "type": "psv"
     },
     {
@@ -6717,7 +6717,7 @@ var PLANT_SPEC = {
       "id": "S1-PSV-018",
       "position": 0.2615,
       "set": 1.6,
-      "size": 1.0,
+      "size": 0.375,
       "type": "psv"
     },
     {
@@ -6727,7 +6727,7 @@ var PLANT_SPEC = {
       "label": "Hand filter bypass valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.0351,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6737,7 +6737,7 @@ var PLANT_SPEC = {
       "label": "Hand receiver condensate drain valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.6629,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6747,7 +6747,7 @@ var PLANT_SPEC = {
       "label": "Blow-down air pressure regulator, 0.5 barg \u2014 Riegler FUTURA",
       "opening": 1.0,
       "position": 0.0726,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6756,7 +6756,7 @@ var PLANT_SPEC = {
       "id": "S1-PSV-073",
       "position": 0.1086,
       "set": 1.0,
-      "size": 1.0,
+      "size": 0.375,
       "type": "psv"
     },
     {
@@ -6766,7 +6766,7 @@ var PLANT_SPEC = {
       "label": "Blow-down air throttle after the safety valve, Kv set with a tool on commissioning \u2014 Georg Fischer SYGEF Standard PVDF Throttle valve type V251",
       "opening": 0.3,
       "position": 0.1277,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6776,7 +6776,7 @@ var PLANT_SPEC = {
       "label": "Hand salt wash-down hose valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
       "position": 0.7304,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -6786,7 +6786,7 @@ var PLANT_SPEC = {
       "label": "Hand isolation valve, normally open \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 1.0,
       "position": 0.385,
-      "size": 1.0,
+      "size": 0.375,
       "type": "handvalve"
     },
     {
@@ -7703,7 +7703,7 @@ var PLANT_SPEC = {
     },
     "popups": [
       {
-        "body": "Skid footprint <b>13.87 \u00d7 2.4 m</b>, dry mass <b>4.3 t</b>, operating <b>8.9 t</b> (skid_layout).<br>Deck size, payload, tie-down points, power, brine intake and overboard points \u2014 <b>[PLACEHOLDER: Bell platform data]</b>; the deck is drawn under the skid equipment only \u2014 platform size, payload and draft per Bell.<br>No steel on deck: FRP frames, plastic piping, titanium fasteners.",
+        "body": "Skid footprint <b>13.87 \u00d7 2.4 m</b>, dry mass <b>4.3 t</b>, operating <b>8.9 t</b> (skid_layout).<br>Deck size, payload, tie-down points, power, brine intake and overboard points \u2014 <b>[PLACEHOLDER: Bell platform data]</b>; the deck is drawn as the skid modules plus a 0.8 m walkway and the intake well \u2014 a drawing, not the platform size; platform size, payload and draft per Bell.<br>No steel on deck: FRP frames, plastic piping, titanium fasteners.",
         "equipmentId": "PON-1",
         "status": "draft",
         "title": "Pontoon (Bell)"
