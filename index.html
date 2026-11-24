@@ -1632,9 +1632,9 @@ var PLANT_SPEC = {
       "to": "S1-\u041a-1.feedIn",
       "waypoints": [
         [
-          -0.915,
+          3.115,
           3.85,
-          4.3865
+          3.0565
         ]
       ]
     },
@@ -1650,14 +1650,14 @@ var PLANT_SPEC = {
       "to": "TE-S1-EJ-129-2.runIn",
       "waypoints": [
         [
-          -0.915,
+          3.115,
           1.17,
-          4.3865
+          3.0565
         ],
         [
-          -0.56,
+          2.76,
           1.17,
-          4.3865
+          3.0565
         ]
       ]
     },
@@ -1673,14 +1673,14 @@ var PLANT_SPEC = {
       "to": "TE-brine_branch_1-1.runIn",
       "waypoints": [
         [
-          -0.56,
+          2.76,
           2.75,
-          3.9865
+          3.4565
         ],
         [
-          -0.56,
+          2.76,
           3.85,
-          3.9865
+          3.4565
         ]
       ]
     },
@@ -1696,34 +1696,23 @@ var PLANT_SPEC = {
       "to": "TE-service_branch_1_water-5.runIn",
       "waypoints": [
         [
-          -0.56,
+          2.76,
           2.95,
-          4.9065
+          2.5365
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-air_supply-6.branch",
+      "from": "TE-service_branch_1_air-6.runIn",
       "hiddenHead": 0.0,
       "id": "service_branch.1.air",
       "medium": "gas",
       "radius": 0.016,
       "stream": null,
       "to": "TE-service_branch_1_water-5.branch",
-      "waypoints": [
-        [
-          -0.168,
-          3.7,
-          4.8255
-        ],
-        [
-          -0.168,
-          3.7,
-          4.9065
-        ]
-      ]
+      "waypoints": []
     },
     {
       "dn": 25,
@@ -1737,9 +1726,9 @@ var PLANT_SPEC = {
       "to": "TE-brine_branch_1-1.runOut",
       "waypoints": [
         [
-          -0.56,
+          2.76,
           3.85,
-          4.9065
+          2.5365
         ]
       ]
     },
@@ -1752,12 +1741,12 @@ var PLANT_SPEC = {
       "medium": "brine",
       "radius": 0.045,
       "stream": null,
-      "to": "TE-S1-L-020-8.runOut",
+      "to": "TE-column_outlet_1-7.runIn",
       "waypoints": [
         [
-          -0.56,
+          2.76,
           1.9,
-          4.3865
+          3.0565
         ]
       ]
     },
@@ -1770,17 +1759,17 @@ var PLANT_SPEC = {
       "medium": "brine",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-wash_branch_1-9.runIn",
+      "to": "TE-wash_branch_1-8.runIn",
       "waypoints": [
         [
-          -0.56,
+          2.76,
           1.6,
-          4.6465
+          2.7965
         ],
         [
-          -0.56,
+          2.76,
           2.1,
-          4.6465
+          2.7965
         ]
       ]
     },
@@ -1793,29 +1782,29 @@ var PLANT_SPEC = {
       "medium": "gas",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-vent_spool_1-10.runIn",
+      "to": "TE-vent_spool_1-9.runIn",
       "waypoints": [
         [
-          -1.05,
+          3.25,
           3.7815,
-          4.3865
+          3.0565
         ],
         [
-          -1.05,
+          3.25,
           3.7815,
-          4.3865
+          3.0565
         ],
         [
-          -1.05,
+          3.25,
           4.1,
-          4.3865
+          3.0565
         ]
       ]
     },
     {
       "dn": 80,
       "flexTail": 0.0,
-      "from": "TE-brine_branch_2-11.branch",
+      "from": "TE-brine_branch_2-10.branch",
       "hiddenHead": 0.0,
       "id": "S1-EJ-228",
       "medium": "default",
@@ -1824,9 +1813,9 @@ var PLANT_SPEC = {
       "to": "S1-\u041a-2.feedIn",
       "waypoints": [
         [
-          -0.915,
+          3.115,
           3.85,
-          5.6865
+          1.7565
         ]
       ]
     },
@@ -1839,123 +1828,134 @@ var PLANT_SPEC = {
       "medium": "default",
       "radius": 0.045,
       "stream": null,
-      "to": "TE-S1-EJ-229-12.runIn",
+      "to": "TE-S1-EJ-229-11.runIn",
       "waypoints": [
         [
-          -0.915,
+          3.115,
           1.17,
-          5.6865
+          1.7565
         ],
         [
-          -0.56,
+          2.76,
           1.17,
-          5.6865
+          1.7565
         ]
       ]
     },
     {
       "dn": 80,
       "flexTail": 0.0,
-      "from": "TE-brine_branch_2-13.runIn",
+      "from": "TE-brine_branch_2-12.runIn",
       "hiddenHead": 0.0,
       "id": "brine_branch.2",
       "medium": "brine",
       "radius": 0.045,
       "stream": null,
-      "to": "TE-brine_branch_2-11.runIn",
+      "to": "TE-brine_branch_2-10.runIn",
       "waypoints": [
         [
-          -0.56,
+          2.76,
           2.75,
-          5.2865
+          2.1565
         ],
         [
-          -0.56,
+          2.76,
           3.85,
-          5.2865
+          2.1565
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-S1-L-030-14.branch",
+      "from": "TE-S1-L-030-13.branch",
       "hiddenHead": 0.0,
       "id": "service_branch.2.water+service_branch.2",
       "medium": "water",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-service_branch_2_water-16.runIn",
+      "to": "TE-service_branch_2_water-15.runIn",
       "waypoints": [
         [
-          -0.168,
+          2.368,
           2.95,
-          6.2875
+          1.1555
         ],
         [
-          -0.168,
+          2.368,
           2.95,
-          6.2065
+          1.2365
         ],
         [
-          -0.56,
+          2.76,
           2.95,
-          6.2065
+          1.2365
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-service_branch_2_air-17.runIn",
+      "from": "TE-air_supply-16.branch",
       "hiddenHead": 0.0,
       "id": "service_branch.2.air",
       "medium": "gas",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-service_branch_2_water-16.branch",
-      "waypoints": []
+      "to": "TE-service_branch_2_water-15.branch",
+      "waypoints": [
+        [
+          2.368,
+          3.7,
+          1.1555
+        ],
+        [
+          2.368,
+          3.7,
+          1.2365
+        ]
+      ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-service_branch_2_water-16.runOut",
+      "from": "TE-service_branch_2_water-15.runOut",
       "hiddenHead": 0.0,
       "id": "service_branch.2",
       "medium": "default",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-brine_branch_2-11.runOut",
+      "to": "TE-brine_branch_2-10.runOut",
       "waypoints": [
         [
-          -0.56,
+          2.76,
           3.85,
-          6.2065
+          1.2365
         ]
       ]
     },
     {
       "dn": 80,
       "flexTail": 0.0,
-      "from": "TE-S1-EJ-229-12.runOut",
+      "from": "TE-S1-EJ-229-11.runOut",
       "hiddenHead": 0.0,
       "id": "column_outlet.2+overboard_branch.2",
       "medium": "brine",
       "radius": 0.045,
       "stream": null,
-      "to": "TE-column_outlet_2-18.runIn",
+      "to": "TE-S1-L-020-18.runOut",
       "waypoints": [
         [
-          -0.56,
+          2.76,
           1.9,
-          5.6865
+          1.7565
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-S1-EJ-229-12.branch",
+      "from": "TE-S1-EJ-229-11.branch",
       "hiddenHead": 0.0,
       "id": "wash_branch.2",
       "medium": "brine",
@@ -1964,19 +1964,19 @@ var PLANT_SPEC = {
       "to": "TE-S1-L-021-19.branch",
       "waypoints": [
         [
-          -0.56,
+          2.76,
           1.6,
-          5.9465
+          1.4965
         ],
         [
-          -0.56,
+          2.76,
           2.1,
-          5.9465
+          1.4965
         ],
         [
-          -0.56,
+          2.76,
           2.1,
-          5.8655
+          1.5775
         ]
       ]
     },
@@ -1992,29 +1992,29 @@ var PLANT_SPEC = {
       "to": "TE-S1-L-063-21.branch",
       "waypoints": [
         [
-          -1.05,
+          3.25,
           3.7815,
-          5.6865
+          1.7565
         ],
         [
-          -1.05,
+          3.25,
           3.7815,
-          5.6865
+          1.7565
         ],
         [
-          -1.05,
+          3.25,
           4.1,
-          5.6865
+          1.7565
         ],
         [
-          -0.6,
+          2.8,
           4.1,
-          5.6865
+          1.7565
         ],
         [
-          -0.6,
+          2.8,
           4.1,
-          5.6055
+          1.8375
         ]
       ]
     },
@@ -2030,9 +2030,9 @@ var PLANT_SPEC = {
       "to": "S1-\u041a-3.feedIn",
       "waypoints": [
         [
-          0.915,
+          1.285,
           3.85,
-          4.3865
+          3.0565
         ]
       ]
     },
@@ -2048,14 +2048,14 @@ var PLANT_SPEC = {
       "to": "TE-S1-EJ-329-24.runIn",
       "waypoints": [
         [
-          0.915,
+          1.285,
           1.17,
-          4.3865
+          3.0565
         ],
         [
-          0.56,
+          1.64,
           1.17,
-          4.3865
+          3.0565
         ]
       ]
     },
@@ -2071,14 +2071,14 @@ var PLANT_SPEC = {
       "to": "TE-brine_branch_3-23.runIn",
       "waypoints": [
         [
-          0.56,
+          1.64,
           2.75,
-          3.9865
+          3.4565
         ],
         [
-          0.56,
+          1.64,
           3.85,
-          3.9865
+          3.4565
         ]
       ]
     },
@@ -2094,34 +2094,23 @@ var PLANT_SPEC = {
       "to": "TE-service_branch_3_water-25.runIn",
       "waypoints": [
         [
-          0.56,
+          1.64,
           2.95,
-          4.9065
+          2.5365
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-air_supply-7.branch",
+      "from": "TE-service_branch_1_air-6.runOut",
       "hiddenHead": 0.0,
       "id": "service_branch.3.air",
       "medium": "gas",
       "radius": 0.016,
       "stream": null,
       "to": "TE-service_branch_3_water-25.branch",
-      "waypoints": [
-        [
-          0.168,
-          3.7,
-          4.9875
-        ],
-        [
-          0.168,
-          3.7,
-          4.9065
-        ]
-      ]
+      "waypoints": []
     },
     {
       "dn": 25,
@@ -2135,9 +2124,9 @@ var PLANT_SPEC = {
       "to": "TE-brine_branch_3-23.runOut",
       "waypoints": [
         [
-          0.56,
+          1.64,
           3.85,
-          4.9065
+          2.5365
         ]
       ]
     },
@@ -2150,12 +2139,12 @@ var PLANT_SPEC = {
       "medium": "brine",
       "radius": 0.045,
       "stream": null,
-      "to": "TE-S1-L-020-8.runIn",
+      "to": "TE-column_outlet_1-7.runOut",
       "waypoints": [
         [
-          0.56,
+          1.64,
           1.9,
-          4.3865
+          3.0565
         ]
       ]
     },
@@ -2168,17 +2157,17 @@ var PLANT_SPEC = {
       "medium": "brine",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-wash_branch_1-9.runOut",
+      "to": "TE-wash_branch_1-8.runOut",
       "waypoints": [
         [
-          0.56,
+          1.64,
           1.6,
-          4.6465
+          2.7965
         ],
         [
-          0.56,
+          1.64,
           2.1,
-          4.6465
+          2.7965
         ]
       ]
     },
@@ -2191,22 +2180,22 @@ var PLANT_SPEC = {
       "medium": "gas",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-vent_spool_1-10.runOut",
+      "to": "TE-vent_spool_1-9.runOut",
       "waypoints": [
         [
-          1.05,
+          1.15,
           3.7815,
-          4.3865
+          3.0565
         ],
         [
-          1.05,
+          1.15,
           3.7815,
-          4.3865
+          3.0565
         ],
         [
-          1.05,
+          1.15,
           4.1,
-          4.3865
+          3.0565
         ]
       ]
     },
@@ -2222,9 +2211,9 @@ var PLANT_SPEC = {
       "to": "S1-\u041a-4.feedIn",
       "waypoints": [
         [
-          0.915,
+          1.285,
           3.85,
-          5.6865
+          1.7565
         ]
       ]
     },
@@ -2240,21 +2229,21 @@ var PLANT_SPEC = {
       "to": "TE-S1-EJ-429-27.runIn",
       "waypoints": [
         [
-          0.915,
+          1.285,
           1.17,
-          5.6865
+          1.7565
         ],
         [
-          0.56,
+          1.64,
           1.17,
-          5.6865
+          1.7565
         ]
       ]
     },
     {
       "dn": 80,
       "flexTail": 0.0,
-      "from": "TE-brine_branch_2-13.runOut",
+      "from": "TE-brine_branch_2-12.runOut",
       "hiddenHead": 0.0,
       "id": "brine_branch.4",
       "medium": "brine",
@@ -2263,21 +2252,21 @@ var PLANT_SPEC = {
       "to": "TE-brine_branch_4-26.runIn",
       "waypoints": [
         [
-          0.56,
+          1.64,
           2.75,
-          5.2865
+          2.1565
         ],
         [
-          0.56,
+          1.64,
           3.85,
-          5.2865
+          2.1565
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-S1-L-030-15.branch",
+      "from": "TE-S1-L-030-14.branch",
       "hiddenHead": 0.0,
       "id": "service_branch.4.water+service_branch.4",
       "medium": "water",
@@ -2286,33 +2275,44 @@ var PLANT_SPEC = {
       "to": "TE-service_branch_4_water-28.runIn",
       "waypoints": [
         [
-          0.168,
+          2.032,
           2.95,
-          6.1255
+          1.3175
         ],
         [
-          0.168,
+          2.032,
           2.95,
-          6.2065
+          1.2365
         ],
         [
-          0.56,
+          1.64,
           2.95,
-          6.2065
+          1.2365
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-service_branch_2_air-17.runOut",
+      "from": "TE-air_supply-17.branch",
       "hiddenHead": 0.0,
       "id": "service_branch.4.air",
       "medium": "gas",
       "radius": 0.016,
       "stream": null,
       "to": "TE-service_branch_4_water-28.branch",
-      "waypoints": []
+      "waypoints": [
+        [
+          2.032,
+          3.7,
+          1.3175
+        ],
+        [
+          2.032,
+          3.7,
+          1.2365
+        ]
+      ]
     },
     {
       "dn": 25,
@@ -2326,9 +2326,9 @@ var PLANT_SPEC = {
       "to": "TE-brine_branch_4-26.runOut",
       "waypoints": [
         [
-          0.56,
+          1.64,
           3.85,
-          6.2065
+          1.2365
         ]
       ]
     },
@@ -2341,12 +2341,12 @@ var PLANT_SPEC = {
       "medium": "brine",
       "radius": 0.045,
       "stream": null,
-      "to": "TE-column_outlet_2-18.runOut",
+      "to": "TE-S1-L-020-18.runIn",
       "waypoints": [
         [
-          0.56,
+          1.64,
           1.9,
-          5.6865
+          1.7565
         ]
       ]
     },
@@ -2362,19 +2362,19 @@ var PLANT_SPEC = {
       "to": "TE-S1-L-021-20.branch",
       "waypoints": [
         [
-          0.56,
+          1.64,
           1.6,
-          5.9465
+          1.4965
         ],
         [
-          0.56,
+          1.64,
           2.1,
-          5.9465
+          1.4965
         ],
         [
-          0.56,
+          1.64,
           2.1,
-          6.0275
+          1.4155
         ]
       ]
     },
@@ -2390,29 +2390,29 @@ var PLANT_SPEC = {
       "to": "TE-S1-L-063-22.branch",
       "waypoints": [
         [
-          1.05,
+          1.15,
           3.7815,
-          5.6865
+          1.7565
         ],
         [
-          1.05,
+          1.15,
           3.7815,
-          5.6865
+          1.7565
         ],
         [
-          1.05,
+          1.15,
           4.1,
-          5.6865
+          1.7565
         ],
         [
-          0.6,
+          1.6,
           4.1,
-          5.6865
+          1.7565
         ],
         [
-          0.6,
+          1.6,
           4.1,
-          5.7675
+          1.6755
         ]
       ]
     },
@@ -2428,9 +2428,9 @@ var PLANT_SPEC = {
       "to": "TE-pump_discharge-29.runIn",
       "waypoints": [
         [
-          -0.0,
+          -2.2,
           1.9,
-          -5.9555
+          -3.2255
         ]
       ]
     },
@@ -2458,19 +2458,19 @@ var PLANT_SPEC = {
       "to": "S1-\u0424-1/1.inlet",
       "waypoints": [
         [
-          -0.15,
+          -2.35,
           1.9,
-          -4.3415
+          -1.6115
         ],
         [
-          -0.15,
+          -2.35,
           1.6224,
-          -4.3415
+          -1.6115
         ],
         [
-          -0.58,
+          -2.78,
           1.6224,
-          -4.3415
+          -1.6115
         ]
       ]
     },
@@ -2486,24 +2486,24 @@ var PLANT_SPEC = {
       "to": "TE-S1-L-003_1-31.runIn",
       "waypoints": [
         [
-          -1.05,
+          -3.25,
           1.5424,
-          -5.3555
+          -2.6255
         ],
         [
-          -1.05,
+          -3.25,
           1.6494,
-          -5.3555
+          -2.6255
         ],
         [
-          -1.08,
+          -3.28,
           1.6494,
-          -5.3555
+          -2.6255
         ],
         [
-          -1.08,
+          -3.28,
           1.9,
-          -5.3555
+          -2.6255
         ]
       ]
     },
@@ -2519,24 +2519,24 @@ var PLANT_SPEC = {
       "to": "S1-\u0424-1/2.inlet",
       "waypoints": [
         [
-          -0.0,
+          -2.2,
           1.9,
-          -4.0415
+          -1.3115
         ],
         [
-          -0.15,
+          -2.35,
           1.9,
-          -4.0415
+          -1.3115
         ],
         [
-          -0.15,
+          -2.35,
           1.6224,
-          -4.0415
+          -1.3115
         ],
         [
-          -0.58,
+          -2.78,
           1.6224,
-          -4.0415
+          -1.3115
         ]
       ]
     },
@@ -2552,19 +2552,19 @@ var PLANT_SPEC = {
       "to": "TE-S1-L-020_flush-32.runOut",
       "waypoints": [
         [
-          -1.05,
+          -3.25,
           1.5424,
-          -4.0415
+          -1.3115
         ],
         [
-          -1.05,
+          -3.25,
           1.6494,
-          -4.0415
+          -1.3115
         ],
         [
-          -1.08,
+          -3.28,
           1.6494,
-          -4.0415
+          -1.3115
         ]
       ]
     },
@@ -2580,24 +2580,24 @@ var PLANT_SPEC = {
       "to": "TE-filter_train_f1_1-33.runIn",
       "waypoints": [
         [
-          -0.58,
+          -2.78,
           1.6224,
-          -5.2055
+          -2.4755
         ],
         [
-          -0.15,
+          -2.35,
           1.6224,
-          -5.2055
+          -2.4755
         ],
         [
-          -0.15,
+          -2.35,
           2.2,
-          -5.2055
+          -2.4755
         ],
         [
-          0.0,
+          -2.2,
           2.2,
-          -5.2055
+          -2.4755
         ]
       ]
     },
@@ -2613,19 +2613,19 @@ var PLANT_SPEC = {
       "to": "TE-filter_train_f1_1-33.branch",
       "waypoints": [
         [
-          -0.58,
+          -2.78,
           1.6224,
-          -3.1775
+          -0.4475
         ],
         [
-          -0.15,
+          -2.35,
           1.6224,
-          -3.1775
+          -0.4475
         ],
         [
-          -0.15,
+          -2.35,
           2.2,
-          -3.1775
+          -0.4475
         ]
       ]
     },
@@ -2644,21 +2644,9 @@ var PLANT_SPEC = {
     {
       "dn": 150,
       "flexTail": 0.0,
-      "from": "TE-filter_train_s2in-34.runOut",
-      "hiddenHead": 0.0,
-      "id": "filter_train.s2in~2",
-      "medium": "brine",
-      "radius": 0.09,
-      "stream": null,
-      "to": "TE-filter_train_s2in-35.runIn",
-      "waypoints": []
-    },
-    {
-      "dn": 150,
-      "flexTail": 0.0,
       "from": "TE-filter_train_s2in-35.runOut",
       "hiddenHead": 0.0,
-      "id": "filter_train.s2in~3",
+      "id": "filter_train.s2in~2",
       "medium": "brine",
       "radius": 0.09,
       "stream": null,
@@ -2668,59 +2656,19 @@ var PLANT_SPEC = {
     {
       "dn": 150,
       "flexTail": 0.0,
-      "from": "TE-filter_train_s2in-36.runOut",
-      "hiddenHead": 0.0,
-      "id": "filter_train.s2in~4",
-      "medium": "brine",
-      "radius": 0.09,
-      "stream": null,
-      "to": "TE-filter_train_s2in-37.runIn",
-      "waypoints": []
-    },
-    {
-      "dn": 150,
-      "flexTail": 0.0,
       "from": "TE-filter_train_s2in-37.runOut",
       "hiddenHead": 0.0,
-      "id": "filter_train.s2in~5",
+      "id": "filter_train.s2in~3",
       "medium": "brine",
       "radius": 0.09,
       "stream": null,
-      "to": "TE-filter_train_s2in-38.runIn",
+      "to": "TE-filter_train_s2_1-38.branch",
       "waypoints": []
     },
     {
       "dn": 150,
       "flexTail": 0.0,
-      "from": "TE-filter_train_s2in-38.runOut",
-      "hiddenHead": 0.0,
-      "id": "filter_train.s2in+filter_train.s2.2",
-      "medium": "brine",
-      "radius": 0.09,
-      "stream": null,
-      "to": "S1-\u0424-3.n1",
-      "waypoints": [
-        [
-          -0.0,
-          2.2,
-          -0.2365
-        ],
-        [
-          -0.0,
-          2.2,
-          -0.2365
-        ],
-        [
-          -0.0,
-          2.2,
-          -0.0865
-        ]
-      ]
-    },
-    {
-      "dn": 150,
-      "flexTail": 0.0,
-      "from": "TE-filter_train_s2in-38.branch",
+      "from": "TE-filter_train_s2_1-38.runIn",
       "hiddenHead": 0.0,
       "id": "filter_train.s2.1",
       "medium": "brine",
@@ -2729,19 +2677,19 @@ var PLANT_SPEC = {
       "to": "S1-\u0424-2.n1",
       "waypoints": [
         [
-          0.323,
+          -1.887,
           2.2,
-          -0.9865
+          1.1835
         ],
         [
-          0.323,
+          -1.887,
           2.2,
-          -0.9865
+          1.1835
         ],
         [
-          0.323,
+          -1.887,
           2.2,
-          -0.8365
+          1.3335
         ]
       ]
     },
@@ -2750,31 +2698,54 @@ var PLANT_SPEC = {
       "flexTail": 0.0,
       "from": "S1-\u0424-2.n2",
       "hiddenHead": 0.0,
-      "id": "filter_train.s2.1o+filter_train.s3in",
+      "id": "filter_train.s2.1o",
       "medium": "brine",
       "radius": 0.09,
       "stream": null,
       "to": "TE-filter_train_s2_1o-39.runIn",
       "waypoints": [
         [
-          0.18,
+          -2.02,
           2.5,
-          -0.8365
+          1.3335
         ],
         [
-          0.18,
+          -2.02,
           2.5,
-          -0.8365
+          1.3335
         ],
         [
-          0.18,
+          -2.02,
           2.5,
-          -0.6865
+          1.4835
+        ]
+      ]
+    },
+    {
+      "dn": 150,
+      "flexTail": 0.0,
+      "from": "TE-filter_train_s2_1-38.runOut",
+      "hiddenHead": 0.0,
+      "id": "filter_train.s2.2",
+      "medium": "brine",
+      "radius": 0.09,
+      "stream": null,
+      "to": "S1-\u0424-3.n1",
+      "waypoints": [
+        [
+          -2.513,
+          2.2,
+          1.1835
         ],
         [
-          0.0,
-          2.5,
-          -0.6865
+          -2.513,
+          2.2,
+          1.1835
+        ],
+        [
+          -2.513,
+          2.2,
+          1.3335
         ]
       ]
     },
@@ -2787,69 +2758,41 @@ var PLANT_SPEC = {
       "medium": "brine",
       "radius": 0.09,
       "stream": null,
-      "to": "TE-filter_train_s2_1o-39.branch",
+      "to": "TE-filter_train_s2_1o-39.runOut",
       "waypoints": [
         [
-          0.18,
+          -2.37,
           2.5,
-          -0.0865
+          1.3335
         ],
         [
-          0.18,
+          -2.37,
           2.5,
-          -0.0865
+          1.3335
         ],
         [
-          0.18,
+          -2.37,
           2.5,
-          0.0635
+          1.4835
         ]
       ]
     },
     {
       "dn": 150,
       "flexTail": 0.0,
-      "from": "TE-filter_train_s2_1o-39.runOut",
+      "from": "TE-filter_train_s2_1o-39.branch",
       "hiddenHead": 0.0,
       "id": "filter_train.s3in",
       "medium": "brine",
       "radius": 0.09,
       "stream": null,
-      "to": "TE-filter_train_s3in-40.runIn",
+      "to": "TE-filter_train_s3_1-40.branch",
       "waypoints": []
     },
     {
       "dn": 150,
       "flexTail": 0.0,
-      "from": "TE-filter_train_s3in-40.runOut",
-      "hiddenHead": 0.0,
-      "id": "filter_train.s3in+filter_train.s3.2",
-      "medium": "brine",
-      "radius": 0.09,
-      "stream": null,
-      "to": "S1-\u0424-5.n1",
-      "waypoints": [
-        [
-          -0.0,
-          2.5,
-          1.2635
-        ],
-        [
-          -0.0,
-          2.5,
-          1.2635
-        ],
-        [
-          -0.0,
-          2.5,
-          1.4135
-        ]
-      ]
-    },
-    {
-      "dn": 150,
-      "flexTail": 0.0,
-      "from": "TE-filter_train_s3in-40.branch",
+      "from": "TE-filter_train_s3_1-40.runIn",
       "hiddenHead": 0.0,
       "id": "filter_train.s3.1",
       "medium": "brine",
@@ -2858,19 +2801,19 @@ var PLANT_SPEC = {
       "to": "S1-\u0424-4.n1",
       "waypoints": [
         [
-          0.323,
+          -1.887,
           2.5,
-          0.5135
+          1.9335
         ],
         [
-          0.323,
+          -1.887,
           2.5,
-          0.5135
+          1.9335
         ],
         [
-          0.323,
+          -1.887,
           2.5,
-          0.6635
+          2.0835
         ]
       ]
     },
@@ -2879,31 +2822,54 @@ var PLANT_SPEC = {
       "flexTail": 0.0,
       "from": "S1-\u0424-4.n2",
       "hiddenHead": 0.0,
-      "id": "filter_train.s3.1o+filter_train.out",
+      "id": "filter_train.s3.1o",
       "medium": "brine",
       "radius": 0.09,
       "stream": null,
       "to": "TE-filter_train_s3_1o-41.runIn",
       "waypoints": [
         [
-          0.18,
+          -2.02,
           2.2,
-          0.6635
+          2.0835
         ],
         [
-          0.18,
+          -2.02,
           2.2,
-          0.6635
+          2.0835
         ],
         [
-          0.18,
+          -2.02,
           2.2,
-          0.8135
+          2.2335
+        ]
+      ]
+    },
+    {
+      "dn": 150,
+      "flexTail": 0.0,
+      "from": "TE-filter_train_s3_1-40.runOut",
+      "hiddenHead": 0.0,
+      "id": "filter_train.s3.2",
+      "medium": "brine",
+      "radius": 0.09,
+      "stream": null,
+      "to": "S1-\u0424-5.n1",
+      "waypoints": [
+        [
+          -2.513,
+          2.5,
+          1.9335
         ],
         [
-          0.0,
-          2.2,
-          0.8135
+          -2.513,
+          2.5,
+          1.9335
+        ],
+        [
+          -2.513,
+          2.5,
+          2.0835
         ]
       ]
     },
@@ -2916,45 +2882,22 @@ var PLANT_SPEC = {
       "medium": "brine",
       "radius": 0.09,
       "stream": null,
-      "to": "TE-filter_train_s3_1o-41.branch",
+      "to": "TE-filter_train_s3_1o-41.runOut",
       "waypoints": [
         [
-          0.18,
+          -2.37,
           2.2,
-          1.4135
+          2.0835
         ],
         [
-          0.18,
+          -2.37,
           2.2,
-          1.4135
+          2.0835
         ],
         [
-          0.18,
+          -2.37,
           2.2,
-          1.5635
-        ]
-      ]
-    },
-    {
-      "dn": 150,
-      "flexTail": 0.0,
-      "from": "TE-filter_train_s2in-35.branch",
-      "hiddenHead": 0.0,
-      "id": "flush_bp.1",
-      "medium": "brine",
-      "radius": 0.09,
-      "stream": null,
-      "to": "TE-filter_train_s2in-36.branch",
-      "waypoints": [
-        [
-          -0.3465,
-          2.2,
-          -2.4075
-        ],
-        [
-          -0.3465,
-          2.2,
-          -1.6565
+          2.2335
         ]
       ]
     },
@@ -2963,6 +2906,39 @@ var PLANT_SPEC = {
       "flexTail": 0.0,
       "from": "TE-filter_train_s2in-34.branch",
       "hiddenHead": 0.0,
+      "id": "flush_bp.1",
+      "medium": "brine",
+      "radius": 0.09,
+      "stream": null,
+      "to": "TE-filter_train_s2in-36.branch",
+      "waypoints": [
+        [
+          -2.523,
+          2.2,
+          -0.1855
+        ],
+        [
+          -2.523,
+          2.2,
+          0.0425
+        ],
+        [
+          -2.5465,
+          2.2,
+          0.0425
+        ],
+        [
+          -2.5465,
+          2.2,
+          0.5655
+        ]
+      ]
+    },
+    {
+      "dn": 150,
+      "flexTail": 0.0,
+      "from": "TE-filter_train_s2in-35.branch",
+      "hiddenHead": 0.0,
       "id": "flush_bp.2",
       "medium": "brine",
       "radius": 0.09,
@@ -2970,14 +2946,24 @@ var PLANT_SPEC = {
       "to": "TE-filter_train_s2in-37.branch",
       "waypoints": [
         [
-          -0.6355,
+          -1.877,
           2.2,
-          -2.6875
+          0.2705
         ],
         [
-          -0.6355,
+          -1.877,
           2.2,
-          -1.3765
+          0.0425
+        ],
+        [
+          -1.8535,
+          2.2,
+          0.0425
+        ],
+        [
+          -1.8535,
+          2.2,
+          1.0215
         ]
       ]
     },
@@ -2990,30 +2976,35 @@ var PLANT_SPEC = {
       "medium": "brine",
       "radius": 0.055,
       "stream": null,
-      "to": "TE-S1-L-020-43.runOut",
+      "to": "TE-S1-L-020_psv-43.runOut",
       "waypoints": [
         [
-          -1.08,
+          -3.28,
           2.2,
-          1.978
+          2.648
         ]
       ]
     },
     {
-      "dn": 100,
+      "dn": 150,
       "flexTail": 0.0,
       "from": "TE-filter_train_out-44.runOut",
       "hiddenHead": 0.0,
-      "id": "psv_discharge.2",
+      "id": "psv_discharge.2+S1-L-020.psv",
       "medium": "brine",
-      "radius": 0.055,
+      "radius": 0.09,
       "stream": null,
-      "to": "TE-S1-L-020-45.runOut",
+      "to": "TE-S1-L-003_1-31.runOut",
       "waypoints": [
         [
-          -1.08,
+          -3.28,
           2.2,
-          2.277
+          2.947
+        ],
+        [
+          -3.28,
+          1.9,
+          2.947
         ]
       ]
     },
@@ -3026,93 +3017,17 @@ var PLANT_SPEC = {
       "medium": "brine",
       "radius": 0.09,
       "stream": null,
-      "to": "TE-filter_train_out-46.branch",
+      "to": "TE-filter_train_out-45.branch",
       "waypoints": [
         [
-          -0.0,
+          -2.2,
           1.6,
-          -5.6555
+          -2.9255
         ],
         [
-          -0.0,
+          -2.2,
           1.6,
-          1.778
-        ]
-      ]
-    },
-    {
-      "dn": 25,
-      "flexTail": 0.0,
-      "from": "S1-\u041a\u041c-1.condensateOut",
-      "hiddenHead": 0.0,
-      "id": "condensate",
-      "medium": "gas",
-      "radius": 0.016,
-      "stream": null,
-      "to": "HC-condensate-1.flangeIn",
-      "waypoints": [
-        [
-          -0.53,
-          1.2024,
-          0.1335
-        ],
-        [
-          -0.8,
-          1.2024,
-          0.1335
-        ],
-        [
-          -0.8,
-          1.302,
-          0.1335
-        ],
-        [
-          -0.8,
-          1.302,
-          0.393
-        ]
-      ]
-    },
-    {
-      "dn": 25,
-      "flexTail": 0.0,
-      "from": "S1-\u041a\u041c-1.airOut",
-      "hiddenHead": 0.0,
-      "id": "air_supply+S1-L-070",
-      "medium": "gas",
-      "radius": 0.016,
-      "stream": null,
-      "to": "TE-air_supply-6.runIn",
-      "waypoints": [
-        [
-          -0.53,
-          2.1634,
-          0.1335
-        ],
-        [
-          -0.8,
-          2.1634,
-          0.1335
-        ],
-        [
-          -0.8,
-          1.9,
-          0.1335
-        ],
-        [
-          -0.8,
-          1.9,
-          0.6535
-        ],
-        [
-          -0.8,
-          3.7,
-          0.6535
-        ],
-        [
-          0.0,
-          3.7,
-          0.6535
+          2.448
         ]
       ]
     },
@@ -3125,37 +3040,37 @@ var PLANT_SPEC = {
       "medium": "water",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-S1-L-030-47.runIn",
+      "to": "TE-S1-L-030-46.runIn",
       "waypoints": [
         [
-          1.01,
+          1.19,
           2.95,
-          6.4865
+          0.9565
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-S1-L-030-47.runOut",
+      "from": "TE-S1-L-030-46.runOut",
       "hiddenHead": 0.0,
       "id": "S1-L-030~2",
       "medium": "water",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-S1-L-030-14.runIn",
+      "to": "TE-S1-L-030-13.runIn",
       "waypoints": [
         [
-          0.0,
+          2.2,
           2.95,
-          6.4865
+          0.9565
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-S1-L-030-15.runOut",
+      "from": "TE-S1-L-030-14.runOut",
       "hiddenHead": 0.0,
       "id": "S1-L-030~3",
       "medium": "water",
@@ -3167,7 +3082,7 @@ var PLANT_SPEC = {
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-S1-L-030-47.branch",
+      "from": "TE-S1-L-030-46.branch",
       "hiddenHead": 0.0,
       "id": "salt_wash",
       "medium": "water",
@@ -3179,7 +3094,7 @@ var PLANT_SPEC = {
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-wash_branch_1-9.branch",
+      "from": "TE-wash_branch_1-8.branch",
       "hiddenHead": 0.0,
       "id": "S1-L-021~1",
       "medium": "brine",
@@ -3200,31 +3115,31 @@ var PLANT_SPEC = {
       "to": "PON-1.overboardA",
       "waypoints": [
         [
-          -0.0,
+          2.2,
           2.1,
-          6.6365
+          0.8065
         ],
         [
-          -0.0,
+          2.2,
           3.9,
-          6.6365
+          0.8065
         ],
         [
-          -1.6,
+          3.8,
           3.9,
-          6.6365
+          0.8065
         ],
         [
-          -1.6,
+          3.8,
           3.9,
-          -1.5893
+          0.8815
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-vent_spool_1-10.branch",
+      "from": "TE-vent_spool_1-9.branch",
       "hiddenHead": 0.0,
       "id": "S1-L-063~1",
       "medium": "gas",
@@ -3245,89 +3160,175 @@ var PLANT_SPEC = {
       "to": "PON-1.overboardA",
       "waypoints": [
         [
-          -0.0,
-          4.1,
-          6.7665
-        ],
-        [
-          -1.6,
-          4.1,
-          6.7665
-        ],
-        [
-          -1.6,
-          4.1,
-          -1.5893
-        ]
-      ]
-    },
-    {
-      "dn": 150,
-      "flexTail": 0.0,
-      "from": "TE-filter_train_s3_1o-41.runOut",
-      "hiddenHead": 0.0,
-      "id": "filter_train.out",
-      "medium": "brine",
-      "radius": 0.09,
-      "stream": null,
-      "to": "TE-filter_train_out-46.runIn",
-      "waypoints": []
-    },
-    {
-      "dn": 150,
-      "flexTail": 0.0,
-      "from": "TE-filter_train_out-46.runOut",
-      "hiddenHead": 0.0,
-      "id": "filter_train.out+S1-L-002",
-      "medium": "brine",
-      "radius": 0.09,
-      "stream": null,
-      "to": "TE-brine_branch_2-13.branch",
-      "waypoints": [
-        [
-          -0.0,
           2.2,
-          2.9365
+          4.1,
+          0.6765
         ],
         [
-          -0.0,
-          2.75,
-          2.9365
+          3.8,
+          4.1,
+          0.6765
+        ],
+        [
+          3.8,
+          4.1,
+          0.8815
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-air_supply-7.runOut",
+      "from": "S1-\u041a\u041c-1.condensateOut",
       "hiddenHead": 0.0,
-      "id": "S1-L-070",
+      "id": "condensate",
       "medium": "gas",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-service_branch_2_air-17.branch",
+      "to": "HC-condensate-1.flangeIn",
+      "waypoints": [
+        [
+          2.22,
+          1.2024,
+          -0.3635
+        ],
+        [
+          1.95,
+          1.2024,
+          -0.3635
+        ],
+        [
+          1.95,
+          1.302,
+          -0.3635
+        ],
+        [
+          1.95,
+          1.302,
+          -0.104
+        ]
+      ]
+    },
+    {
+      "dn": 25,
+      "flexTail": 0.0,
+      "from": "S1-\u041a\u041c-1.airOut",
+      "hiddenHead": 0.0,
+      "id": "air_supply+S1-L-070",
+      "medium": "gas",
+      "radius": 0.016,
+      "stream": null,
+      "to": "TE-air_supply-16.runIn",
+      "waypoints": [
+        [
+          2.22,
+          2.1634,
+          -0.3635
+        ],
+        [
+          1.95,
+          2.1634,
+          -0.3635
+        ],
+        [
+          1.95,
+          1.9,
+          -0.3635
+        ],
+        [
+          1.95,
+          1.9,
+          0.1565
+        ],
+        [
+          1.95,
+          3.7,
+          0.1565
+        ],
+        [
+          1.95,
+          3.7,
+          0.8815
+        ],
+        [
+          2.2,
+          3.7,
+          0.8815
+        ]
+      ]
+    },
+    {
+      "dn": 150,
+      "flexTail": 0.0,
+      "from": "TE-filter_train_s3_1o-41.branch",
+      "hiddenHead": 0.0,
+      "id": "filter_train.out",
+      "medium": "brine",
+      "radius": 0.09,
+      "stream": null,
+      "to": "TE-filter_train_out-45.runIn",
       "waypoints": []
     },
     {
       "dn": 150,
       "flexTail": 0.0,
-      "from": "TE-column_outlet_2-18.branch",
+      "from": "TE-filter_train_out-45.runOut",
       "hiddenHead": 0.0,
-      "id": "S1-L-020~1",
+      "id": "filter_train.out+S1-L-002",
       "medium": "brine",
       "radius": 0.09,
       "stream": null,
-      "to": "TE-S1-L-003_1-31.runOut",
+      "to": "TE-brine_branch_2-12.branch",
       "waypoints": [
         [
-          0.0,
-          1.9,
-          3.4865
+          -2.2,
+          2.2,
+          3.7565
         ],
         [
-          -1.08,
+          -2.2,
+          2.75,
+          3.7565
+        ],
+        [
+          2.2,
+          2.75,
+          3.7565
+        ]
+      ]
+    },
+    {
+      "dn": 25,
+      "flexTail": 0.0,
+      "from": "TE-air_supply-17.runOut",
+      "hiddenHead": 0.0,
+      "id": "S1-L-070",
+      "medium": "gas",
+      "radius": 0.016,
+      "stream": null,
+      "to": "TE-service_branch_1_air-6.branch",
+      "waypoints": []
+    },
+    {
+      "dn": 150,
+      "flexTail": 0.0,
+      "from": "TE-column_outlet_1-7.branch",
+      "hiddenHead": 0.0,
+      "id": "S1-L-020",
+      "medium": "brine",
+      "radius": 0.09,
+      "stream": null,
+      "to": "PON-1.overboardA",
+      "waypoints": [
+        [
+          2.2,
           1.9,
-          3.4865
+          0.8815
+        ],
+        [
+          3.8,
+          1.9,
+          0.8815
         ]
       ]
     },
@@ -3336,26 +3337,26 @@ var PLANT_SPEC = {
       "flexTail": 0.0,
       "from": "TE-S1-L-003_1-31.branch",
       "hiddenHead": 0.0,
-      "id": "S1-L-020~2",
+      "id": "S1-L-020.flush",
       "medium": "brine",
       "radius": 0.09,
       "stream": null,
-      "to": "PON-1.overboardA",
+      "to": "PON-1.overboardB",
       "waypoints": [
         [
-          -1.403,
+          -3.603,
           1.9,
-          -1.5893
+          0.1108
         ],
         [
-          -1.403,
+          -3.603,
           1.26,
-          -1.5893
+          0.1108
         ],
         [
-          -1.6,
+          -3.8,
           1.26,
-          -1.5893
+          0.1108
         ]
       ]
     },
@@ -3368,54 +3369,44 @@ var PLANT_SPEC = {
       "medium": "instrument_air",
       "radius": 0.01,
       "stream": null,
-      "to": "TE-S1-L-071-48.runIn",
+      "to": "TE-S1-L-071-47.runIn",
       "waypoints": [
         [
-          -0.53,
+          2.22,
           1.9209,
-          0.1335
+          -0.3635
         ],
         [
-          -0.38,
+          2.37,
           1.9209,
-          0.1335
+          -0.3635
         ],
         [
-          -0.38,
+          2.37,
           1.8804,
-          0.1335
+          -0.3635
         ],
         [
-          -0.38,
+          2.37,
           1.8804,
-          0.1635
+          -0.3335
         ],
         [
-          -0.38,
-          3.9,
-          0.1635
-        ],
-        [
-          0.0,
-          3.9,
-          0.1635
-        ],
-        [
-          0.0,
-          3.9,
-          2.9865
-        ],
-        [
-          0.0,
+          2.37,
           4.15,
-          2.9865
+          -0.3335
+        ],
+        [
+          2.2,
+          4.15,
+          -0.3335
         ]
       ]
     },
     {
       "dn": 15,
       "flexTail": 0.0,
-      "from": "TE-S1-L-071-48.runOut",
+      "from": "TE-S1-L-071-47.branch",
       "hiddenHead": 0.0,
       "id": "S1-L-071~2",
       "medium": "instrument_air",
@@ -3424,36 +3415,31 @@ var PLANT_SPEC = {
       "to": "S1-\u041f\u041d-1/4.airIn",
       "waypoints": [
         [
-          -0.0,
+          2.044,
           4.15,
-          6.6865
+          0.9165
         ],
         [
-          0.295,
+          2.044,
           4.15,
-          6.6865
+          0.4065
         ],
         [
-          0.295,
+          1.8,
           4.15,
-          6.3365
+          0.4065
         ],
         [
-          0.4,
-          4.15,
-          6.3365
-        ],
-        [
-          0.4,
+          1.8,
           3.72,
-          6.3365
+          0.4065
         ]
       ]
     },
     {
       "dn": 15,
       "flexTail": 0.0,
-      "from": "TE-S1-L-071-48.branch",
+      "from": "TE-S1-L-071-47.runOut",
       "hiddenHead": 0.0,
       "id": "S1-L-071.b",
       "medium": "instrument_air",
@@ -3462,24 +3448,29 @@ var PLANT_SPEC = {
       "to": "S1-\u041f\u041d-1/3.airIn",
       "waypoints": [
         [
-          0.156,
+          2.2,
           4.15,
-          3.4865
+          3.9565
         ],
         [
-          0.156,
+          1.905,
           4.15,
-          3.1365
+          3.9565
         ],
         [
-          0.4,
+          1.905,
           4.15,
-          3.1365
+          3.6065
         ],
         [
-          0.4,
+          1.8,
+          4.15,
+          3.6065
+        ],
+        [
+          1.8,
           3.72,
-          3.1365
+          3.6065
         ]
       ]
     },
@@ -3495,44 +3486,39 @@ var PLANT_SPEC = {
       "to": "S1-\u041d-1.suctionIn",
       "waypoints": [
         [
-          0.4,
+          -2.2,
           1.3,
-          -5.6055
+          -2.8755
         ],
         [
-          0.0,
-          1.3,
-          -5.6055
-        ],
-        [
-          0.0,
+          -2.2,
           1.3324,
-          -5.6055
+          -2.8755
         ]
       ]
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-air_supply-6.runOut",
+      "from": "TE-S1-L-030-13.runOut",
       "hiddenHead": 0.0,
-      "id": "air_supply+S1-L-070~x7",
-      "medium": "gas",
+      "id": "S1-L-030~2~x14",
+      "medium": "water",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-air_supply-7.runIn",
+      "to": "TE-S1-L-030-14.runIn",
       "waypoints": []
     },
     {
       "dn": 25,
       "flexTail": 0.0,
-      "from": "TE-S1-L-030-14.runOut",
+      "from": "TE-air_supply-16.runOut",
       "hiddenHead": 0.0,
-      "id": "S1-L-030~2~x15",
-      "medium": "water",
+      "id": "air_supply+S1-L-070~x17",
+      "medium": "gas",
       "radius": 0.016,
       "stream": null,
-      "to": "TE-S1-L-030-15.runIn",
+      "to": "TE-air_supply-17.runIn",
       "waypoints": []
     },
     {
@@ -3558,6 +3544,30 @@ var PLANT_SPEC = {
       "stream": null,
       "to": "TE-S1-L-063-22.runIn",
       "waypoints": []
+    },
+    {
+      "dn": 150,
+      "flexTail": 0.0,
+      "from": "TE-filter_train_s2in-34.runOut",
+      "hiddenHead": 0.0,
+      "id": "filter_train.s2in~1~x35",
+      "medium": "brine",
+      "radius": 0.09,
+      "stream": null,
+      "to": "TE-filter_train_s2in-35.runIn",
+      "waypoints": []
+    },
+    {
+      "dn": 150,
+      "flexTail": 0.0,
+      "from": "TE-filter_train_s2in-36.runOut",
+      "hiddenHead": 0.0,
+      "id": "filter_train.s2in~2~x37",
+      "medium": "brine",
+      "radius": 0.09,
+      "stream": null,
+      "to": "TE-filter_train_s2in-37.runIn",
+      "waypoints": []
     }
   ],
   "equipment": [
@@ -3574,17 +3584,17 @@ var PLANT_SPEC = {
         "floatRadius": 0.62,
         "intakeHeight": 0.4,
         "intakeRadius": 0.11,
-        "length": 16.368,
+        "length": 10.013,
         "moonPool": 1.15,
-        "moonPoolX": 7.189,
-        "moonPoolZ": 0.4,
+        "moonPoolX": 3.6525,
+        "moonPoolZ": 2.8755,
         "overboardA": [
-          1.1418,
-          -1.6
+          -4.2475,
+          -0.8815
         ],
         "overboardB": [
-          -6.784,
-          1.6
+          3.3525,
+          -0.1108
         ],
         "railColor": 13094355,
         "railHeight": 1.05,
@@ -3594,17 +3604,17 @@ var PLANT_SPEC = {
         "size": 8.0,
         "trimColor": 3817285,
         "waveSpeed": 0.6,
-        "width": 16.368,
+        "width": 10.013,
         "winch": false
       },
       "position": [
+        -0.4475,
         0.0,
-        0.0,
-        -0.4475
+        0.0
       ],
       "rotation": [
         0.0,
-        90.0,
+        180.0,
         0.0
       ],
       "transparent": false,
@@ -3613,7 +3623,7 @@ var PLANT_SPEC = {
     {
       "id": "FR-B",
       "instanceable": false,
-      "label": "Module B \u2014 brine pump, filters, compressor, control cabinet (FRP frame)",
+      "label": "Module B \u2014 brine pump, self-cleaning and cartridge filters, relief valves (FRP frame)",
       "nozzles": [],
       "params": {
         "baseHeight": 0.1524,
@@ -3622,17 +3632,17 @@ var PLANT_SPEC = {
         "metalness": 0.05,
         "padColor": 9080985,
         "padRadius": 0.01,
-        "padSpacing": 1.2466,
-        "pads": 7,
+        "padSpacing": 1.2019,
+        "pads": 6,
         "postHeight": 0.0,
         "shelfHeight": 0.0,
         "steelColor": 7900772,
-        "width": 9.973
+        "width": 8.413
       },
       "position": [
-        0.0,
+        -2.2,
         0.9,
-        -1.95
+        0.0
       ],
       "rotation": [
         0.0,
@@ -3662,9 +3672,9 @@ var PLANT_SPEC = {
         "width": 3.7
       },
       "position": [
-        0.0,
+        2.2,
         0.9,
-        5.0865
+        2.3565
       ],
       "rotation": [
         0.0,
@@ -3694,9 +3704,9 @@ var PLANT_SPEC = {
         "width": 1.81
       },
       "position": [
-        -0.915,
+        1.285,
         1.0524,
-        5.0365
+        2.4065
       ],
       "rotation": [
         0.0,
@@ -3726,9 +3736,9 @@ var PLANT_SPEC = {
         "width": 1.81
       },
       "position": [
-        0.915,
+        3.115,
         1.0524,
-        5.0365
+        2.4065
       ],
       "rotation": [
         0.0,
@@ -3758,9 +3768,9 @@ var PLANT_SPEC = {
         "width": 1.3
       },
       "position": [
-        0.0,
+        2.2,
         0.9,
-        3.3127
+        0.5827
       ],
       "rotation": [
         0.0,
@@ -3790,9 +3800,9 @@ var PLANT_SPEC = {
         "width": 1.3
       },
       "position": [
-        0.0,
+        2.2,
         0.9,
-        5.0665
+        2.3765
       ],
       "rotation": [
         0.0,
@@ -3822,13 +3832,45 @@ var PLANT_SPEC = {
         "width": 1.3
       },
       "position": [
-        0.0,
+        2.2,
         0.9,
-        6.8603
+        4.1303
       ],
       "rotation": [
         0.0,
         0.0,
+        0.0
+      ],
+      "transparent": false,
+      "type": "skid_frame"
+    },
+    {
+      "id": "FR-K",
+      "instanceable": false,
+      "label": "Module K \u2014 operator cabin with the control cabinet, compressor package (FRP frame)",
+      "nozzles": [],
+      "params": {
+        "baseHeight": 0.1524,
+        "beam": 0.1524,
+        "length": 2.4,
+        "metalness": 0.05,
+        "padColor": 9080985,
+        "padRadius": 0.01,
+        "padSpacing": 1.3967,
+        "pads": 2,
+        "postHeight": 0.0,
+        "shelfHeight": 0.0,
+        "steelColor": 7900772,
+        "width": 4.19
+      },
+      "position": [
+        2.2,
+        0.9,
+        -1.7885
+      ],
+      "rotation": [
+        0.0,
+        270.0,
         0.0
       ],
       "transparent": false,
@@ -3852,9 +3894,9 @@ var PLANT_SPEC = {
         "voluteRadius": 0.12
       },
       "position": [
-        0.0,
+        -2.2,
         1.0524,
-        -6.3955
+        -3.6655
       ],
       "rotation": [
         0.0,
@@ -3887,9 +3929,9 @@ var PLANT_SPEC = {
         "trimColor": 2500910
       },
       "position": [
-        -0.58,
+        -2.78,
         1.0524,
-        -4.8485
+        -2.1185
       ],
       "rotation": [
         0.0,
@@ -3922,9 +3964,9 @@ var PLANT_SPEC = {
         "trimColor": 2500910
       },
       "position": [
-        -0.58,
+        -2.78,
         1.0524,
-        -3.5345
+        -0.8045
       ],
       "rotation": [
         0.0,
@@ -3964,9 +4006,9 @@ var PLANT_SPEC = {
         "radius": 0.3
       },
       "position": [
-        0.7,
+        -1.5,
         1.0524,
-        -0.8365
+        1.3335
       ],
       "rotation": [
         0.0,
@@ -3982,7 +4024,7 @@ var PLANT_SPEC = {
       "label": "Cartridge filter housing S1-\u0424-3, 10\u201325 \u00b5m, standby \u2014 Hongtek Filtration PPY Series PPH Multi High Flow Cartridge Filter Housing, 4 \u00d7 40\"",
       "nozzles": [
         {
-          "angle": 180.0,
+          "angle": 0.0,
           "height": 0.7128,
           "id": "n1",
           "mount": "shell",
@@ -3990,7 +4032,7 @@ var PLANT_SPEC = {
           "type": "feed"
         },
         {
-          "angle": 180.0,
+          "angle": 0.0,
           "height": 0.8991,
           "id": "n2",
           "mount": "shell",
@@ -4006,9 +4048,9 @@ var PLANT_SPEC = {
         "radius": 0.3
       },
       "position": [
-        0.7,
+        -2.89,
         1.0524,
-        -0.0865
+        1.3335
       ],
       "rotation": [
         0.0,
@@ -4048,9 +4090,9 @@ var PLANT_SPEC = {
         "radius": 0.3
       },
       "position": [
-        0.7,
+        -1.5,
         1.0524,
-        0.6635
+        2.0835
       ],
       "rotation": [
         0.0,
@@ -4066,7 +4108,7 @@ var PLANT_SPEC = {
       "label": "Cartridge filter housing S1-\u0424-5, 1 \u00b5m, standby \u2014 Hongtek Filtration PPY Series PPH Multi High Flow Cartridge Filter Housing, 4 \u00d7 40\"",
       "nozzles": [
         {
-          "angle": 180.0,
+          "angle": 0.0,
           "height": 0.8991,
           "id": "n1",
           "mount": "shell",
@@ -4074,7 +4116,7 @@ var PLANT_SPEC = {
           "type": "feed"
         },
         {
-          "angle": 180.0,
+          "angle": 0.0,
           "height": 0.7128,
           "id": "n2",
           "mount": "shell",
@@ -4090,9 +4132,9 @@ var PLANT_SPEC = {
         "radius": 0.3
       },
       "position": [
-        0.7,
+        -2.89,
         1.0524,
-        1.4135
+        2.0835
       ],
       "rotation": [
         0.0,
@@ -4103,77 +4145,12 @@ var PLANT_SPEC = {
       "type": "tank"
     },
     {
-      "id": "S1-\u041a\u041c-1",
-      "instanceable": false,
-      "label": "Oil-free compressor package S1-\u041a\u041c-1 with dryer S1-\u041e\u0421-1 and receivers S1-\u0411-7 \u2014 Kaeser i.Comp 9 TOWER T (SIGMA CONTROL 2)",
-      "nozzles": [],
-      "params": {
-        "color": 14278113,
-        "depth": 0.84,
-        "dryerTag": "S1-\u041e\u0421-1",
-        "fanSpeed": 1.0,
-        "flow": 24.9,
-        "frameColor": 3817285,
-        "frameHeight": 0.1,
-        "height": 1.28,
-        "pressure": 11.0,
-        "receiverColor": 12597547,
-        "receiverHeight": 0.97,
-        "receiverRadius": 0.15,
-        "receiverTag": "S1-\u0411-7",
-        "receiverVolume": 80.0,
-        "tag": "S1-\u041a\u041c-1",
-        "width": 0.63
-      },
-      "position": [
-        -0.53,
-        1.0524,
-        -0.5715
-      ],
-      "rotation": [
-        0.0,
-        270.0,
-        0.0
-      ],
-      "transparent": false,
-      "type": "air_compressor"
-    },
-    {
-      "id": "S1-\u0428\u0423-1",
-      "instanceable": false,
-      "label": "Control cabinet S1-\u0428\u0423-1 \u2014 PLC, HMI, I/O \u2014 Fibox ARCA IEC 806030",
-      "nozzles": [],
-      "params": {
-        "airInlet": false,
-        "bodyColor": 13225426,
-        "depth": 0.3,
-        "height": 0.8,
-        "hmi": true,
-        "plinth": 0.4476,
-        "screenColor": 1054752,
-        "trimColor": 3817285,
-        "width": 0.6
-      },
-      "position": [
-        -0.84,
-        1.0524,
-        1.2035
-      ],
-      "rotation": [
-        0.0,
-        90.0,
-        0.0
-      ],
-      "transparent": false,
-      "type": "control_cabinet"
-    },
-    {
       "id": "S1-\u041a-1",
       "instanceable": false,
       "label": "Radial sorption column S1-\u041a-1",
       "nozzles": [
         {
-          "angle": 180.0,
+          "angle": 0.0,
           "height": 0.5,
           "id": "ventOut",
           "mount": "top",
@@ -4199,9 +4176,9 @@ var PLANT_SPEC = {
         "solidBed": false
       },
       "position": [
-        -0.915,
+        3.115,
         1.3,
-        4.3865
+        3.0565
       ],
       "rotation": [
         0.0,
@@ -4217,6 +4194,50 @@ var PLANT_SPEC = {
       "label": "Radial sorption column S1-\u041a-2",
       "nozzles": [
         {
+          "angle": 0.0,
+          "height": 0.5,
+          "id": "ventOut",
+          "mount": "top",
+          "radial": 0.5094,
+          "type": "vent"
+        }
+      ],
+      "params": {
+        "bedColor": 1710618,
+        "bedLevel": 0.96,
+        "collectorFraction": 0.3,
+        "color": 13225683,
+        "coreColor": 2764339,
+        "cutawayAngle": 0.0,
+        "cutawayDeg": 90.0,
+        "flangeColor": 12107976,
+        "height": 2.0396,
+        "liftingLugs": 2,
+        "lowPoly": false,
+        "maxBeads": 8000,
+        "mergeParts": false,
+        "radius": 0.265,
+        "solidBed": false
+      },
+      "position": [
+        3.115,
+        1.3,
+        1.7565
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "transparent": false,
+      "type": "radial_column"
+    },
+    {
+      "id": "S1-\u041a-3",
+      "instanceable": false,
+      "label": "Radial sorption column S1-\u041a-3",
+      "nozzles": [
+        {
           "angle": 180.0,
           "height": 0.5,
           "id": "ventOut",
@@ -4243,53 +4264,9 @@ var PLANT_SPEC = {
         "solidBed": false
       },
       "position": [
-        -0.915,
+        1.285,
         1.3,
-        5.6865
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "transparent": false,
-      "type": "radial_column"
-    },
-    {
-      "id": "S1-\u041a-3",
-      "instanceable": false,
-      "label": "Radial sorption column S1-\u041a-3",
-      "nozzles": [
-        {
-          "angle": 0.0,
-          "height": 0.5,
-          "id": "ventOut",
-          "mount": "top",
-          "radial": 0.5094,
-          "type": "vent"
-        }
-      ],
-      "params": {
-        "bedColor": 1710618,
-        "bedLevel": 0.96,
-        "collectorFraction": 0.3,
-        "color": 13225683,
-        "coreColor": 2764339,
-        "cutawayAngle": 0.0,
-        "cutawayDeg": 90.0,
-        "flangeColor": 12107976,
-        "height": 2.0396,
-        "liftingLugs": 2,
-        "lowPoly": false,
-        "maxBeads": 8000,
-        "mergeParts": false,
-        "radius": 0.265,
-        "solidBed": false
-      },
-      "position": [
-        0.915,
-        1.3,
-        4.3865
+        3.0565
       ],
       "rotation": [
         0.0,
@@ -4305,7 +4282,7 @@ var PLANT_SPEC = {
       "label": "Radial sorption column S1-\u041a-4",
       "nozzles": [
         {
-          "angle": 0.0,
+          "angle": 180.0,
           "height": 0.5,
           "id": "ventOut",
           "mount": "top",
@@ -4331,9 +4308,9 @@ var PLANT_SPEC = {
         "solidBed": false
       },
       "position": [
-        0.915,
+        1.285,
         1.3,
-        5.6865
+        1.7565
       ],
       "rotation": [
         0.0,
@@ -4360,9 +4337,9 @@ var PLANT_SPEC = {
         "width": 0.4
       },
       "position": [
-        0.4,
+        1.8,
         3.1,
-        3.4865
+        3.9565
       ],
       "rotation": [
         0.0,
@@ -4389,9 +4366,9 @@ var PLANT_SPEC = {
         "width": 0.4
       },
       "position": [
-        0.4,
+        1.8,
         3.1,
-        6.6865
+        0.7565
       ],
       "rotation": [
         0.0,
@@ -4418,9 +4395,9 @@ var PLANT_SPEC = {
         "width": 0.4
       },
       "position": [
-        0.4,
+        1.8,
         3.6,
-        3.4865
+        3.9565
       ],
       "rotation": [
         0.0,
@@ -4447,9 +4424,9 @@ var PLANT_SPEC = {
         "width": 0.4
       },
       "position": [
-        0.4,
+        1.8,
         3.6,
-        6.6865
+        0.7565
       ],
       "rotation": [
         0.0,
@@ -4479,9 +4456,9 @@ var PLANT_SPEC = {
         "width": 2.5
       },
       "position": [
-        0.0,
+        2.2,
         1.0524,
-        5.0365
+        2.4065
       ],
       "rotation": [
         0.0,
@@ -4505,9 +4482,9 @@ var PLANT_SPEC = {
         "tag": "S1-LD-092"
       },
       "position": [
-        -0.4384,
+        2.6384,
         1.0524,
-        3.8865
+        3.5565
       ],
       "rotation": [
         0.0,
@@ -4518,6 +4495,100 @@ var PLANT_SPEC = {
       "type": "leak_sensor"
     },
     {
+      "id": "S1-\u041a\u041c-1",
+      "instanceable": false,
+      "label": "Oil-free compressor package S1-\u041a\u041c-1 with dryer S1-\u041e\u0421-1 and receivers S1-\u0411-7 \u2014 Kaeser i.Comp 9 TOWER T (SIGMA CONTROL 2)",
+      "nozzles": [],
+      "params": {
+        "color": 14278113,
+        "depth": 0.84,
+        "dryerTag": "S1-\u041e\u0421-1",
+        "fanSpeed": 1.0,
+        "flow": 24.9,
+        "frameColor": 3817285,
+        "frameHeight": 0.1,
+        "height": 1.28,
+        "pressure": 11.0,
+        "receiverColor": 12597547,
+        "receiverHeight": 0.97,
+        "receiverRadius": 0.15,
+        "receiverTag": "S1-\u0411-7",
+        "receiverVolume": 80.0,
+        "tag": "S1-\u041a\u041c-1",
+        "width": 0.63
+      },
+      "position": [
+        2.22,
+        1.0524,
+        -1.0685
+      ],
+      "rotation": [
+        0.0,
+        270.0,
+        0.0
+      ],
+      "transparent": false,
+      "type": "air_compressor"
+    },
+    {
+      "id": "S1-\u041a\u041e-1",
+      "instanceable": false,
+      "label": "Operator cabin S1-\u041a\u041e-1 \u2014 FRP, 2 \u00d7 2 \u00d7 2.3 m, door to the aisle; the control cabinet S1-\u0428\u0423-1 with the HMI inside (Bodies: transparent shows it); maker and price \u2014 [PLACEHOLDER: FRP cabin quotation]",
+      "nozzles": [],
+      "params": {
+        "airInlet": false,
+        "bodyColor": 15000022,
+        "depth": 2.0,
+        "height": 2.3,
+        "hmi": false,
+        "plinth": 0.02,
+        "screenColor": 1054752,
+        "trimColor": 5990000,
+        "width": 2.0
+      },
+      "position": [
+        2.2,
+        1.0524,
+        -2.7835
+      ],
+      "rotation": [
+        0.0,
+        270.0,
+        0.0
+      ],
+      "transparent": false,
+      "type": "control_cabinet"
+    },
+    {
+      "id": "S1-\u0428\u0423-1",
+      "instanceable": false,
+      "label": "Control cabinet S1-\u0428\u0423-1 \u2014 PLC, HMI, I/O \u2014 Fibox ARCA IEC 806030, inside the operator cabin S1-\u041a\u041e-1",
+      "nozzles": [],
+      "params": {
+        "airInlet": false,
+        "bodyColor": 13225426,
+        "depth": 0.3,
+        "height": 0.8,
+        "hmi": true,
+        "plinth": 0.4476,
+        "screenColor": 1054752,
+        "trimColor": 3817285,
+        "width": 0.6
+      },
+      "position": [
+        2.95,
+        1.0524,
+        -2.7835
+      ],
+      "rotation": [
+        0.0,
+        270.0,
+        0.0
+      ],
+      "transparent": false,
+      "type": "control_cabinet"
+    },
+    {
       "id": "TE-brine_branch_1-1",
       "instanceable": false,
       "label": "Tee on brine_branch.1 \u2014 S1-EJ-128 branches off",
@@ -4525,7 +4596,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.126,
         "branchRadius": 0.045,
-        "branchSide": "-z",
+        "branchSide": "+z",
         "flangeColor": 9344412,
         "medium": "brine",
         "mediumColor": null,
@@ -4534,14 +4605,14 @@ var PLANT_SPEC = {
         "runLength": 0.242
       },
       "position": [
-        -0.56,
+        2.76,
         3.85,
-        4.3865
+        3.0565
       ],
       "rotation": [
         0.0,
         90.0,
-        180.0
+        0.0
       ],
       "transparent": false,
       "type": "pipe_tee"
@@ -4554,7 +4625,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.105,
         "branchRadius": 0.016,
-        "branchSide": "+z",
+        "branchSide": "-z",
         "flangeColor": 9344412,
         "medium": "default",
         "mediumColor": null,
@@ -4563,9 +4634,9 @@ var PLANT_SPEC = {
         "runLength": 0.175
       },
       "position": [
-        -0.56,
+        2.76,
         1.6,
-        4.3865
+        3.0565
       ],
       "rotation": [
         0.0,
@@ -4592,14 +4663,14 @@ var PLANT_SPEC = {
         "runLength": 0.15
       },
       "position": [
-        0.0,
+        2.2,
         2.75,
-        3.9865
+        3.4565
       ],
       "rotation": [
         0.0,
         0.0,
-        180.0
+        0.0
       ],
       "transparent": false,
       "type": "pipe_tee"
@@ -4612,7 +4683,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.068,
         "branchRadius": 0.016,
-        "branchSide": "+z",
+        "branchSide": "-z",
         "flangeColor": 9344412,
         "medium": "water",
         "mediumColor": null,
@@ -4621,14 +4692,14 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        0.0,
+        2.2,
         2.95,
-        4.9065
+        2.5365
       ],
       "rotation": [
         0.0,
         0.0,
-        0.0
+        180.0
       ],
       "transparent": false,
       "type": "pipe_tee"
@@ -4641,7 +4712,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.068,
         "branchRadius": 0.016,
-        "branchSide": "down",
+        "branchSide": "up",
         "flangeColor": 9344412,
         "medium": "water",
         "mediumColor": null,
@@ -4650,9 +4721,9 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        -0.56,
+        2.76,
         3.7,
-        4.9065
+        2.5365
       ],
       "rotation": [
         0.0,
@@ -4663,9 +4734,9 @@ var PLANT_SPEC = {
       "type": "pipe_tee"
     },
     {
-      "id": "TE-air_supply-6",
+      "id": "TE-service_branch_1_air-6",
       "instanceable": false,
-      "label": "Tee on air_supply (a cross drawn as two tees)",
+      "label": "Tee on service_branch.1.air \u2014 S1-L-070 branches off",
       "nozzles": [],
       "params": {
         "branchLength": 0.068,
@@ -4679,67 +4750,9 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        0.0,
+        2.2,
         3.7,
-        4.8255
-      ],
-      "rotation": [
-        0.0,
-        90.0,
-        180.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-air_supply-7",
-      "instanceable": false,
-      "label": "Tee on air_supply (a cross drawn as two tees)",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.068,
-        "branchRadius": 0.016,
-        "branchSide": "+z",
-        "flangeColor": 9344412,
-        "medium": "gas",
-        "mediumColor": null,
-        "pipeColor": 14999762,
-        "radius": 0.016,
-        "runLength": 0.132
-      },
-      "position": [
-        0.0,
-        3.7,
-        4.9875
-      ],
-      "rotation": [
-        0.0,
-        90.0,
-        180.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-S1-L-020-8",
-      "instanceable": false,
-      "label": "Branch connection on header S1-L-020 \u2014 column_outlet.1+overboard_branch.1, column_outlet.3+overboard_branch.3",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.097,
-        "branchRadius": 0.005,
-        "branchSide": "+z",
-        "flangeColor": 9344412,
-        "medium": "brine",
-        "mediumColor": null,
-        "pipeColor": 12040624,
-        "radius": 0.045,
-        "runLength": 0.15
-      },
-      "position": [
-        0.0,
-        1.9,
-        4.3865
+        2.5365
       ],
       "rotation": [
         0.0,
@@ -4750,125 +4763,9 @@ var PLANT_SPEC = {
       "type": "pipe_tee"
     },
     {
-      "id": "TE-wash_branch_1-9",
+      "id": "TE-column_outlet_1-7",
       "instanceable": false,
-      "label": "Tee on wash_branch.1 \u2014 S1-L-021~1 branches off",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.068,
-        "branchRadius": 0.016,
-        "branchSide": "+z",
-        "flangeColor": 9344412,
-        "medium": "brine",
-        "mediumColor": null,
-        "pipeColor": 14999762,
-        "radius": 0.016,
-        "runLength": 0.132
-      },
-      "position": [
-        0.0,
-        2.1,
-        4.6465
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-vent_spool_1-10",
-      "instanceable": false,
-      "label": "Tee on vent_spool.1 \u2014 S1-L-063~1 branches off",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.068,
-        "branchRadius": 0.016,
-        "branchSide": "+z",
-        "flangeColor": 9344412,
-        "medium": "gas",
-        "mediumColor": null,
-        "pipeColor": 14999762,
-        "radius": 0.016,
-        "runLength": 0.132
-      },
-      "position": [
-        0.0,
-        4.1,
-        4.3865
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-brine_branch_2-11",
-      "instanceable": false,
-      "label": "Tee on brine_branch.2 \u2014 S1-EJ-228 branches off",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.126,
-        "branchRadius": 0.045,
-        "branchSide": "-z",
-        "flangeColor": 9344412,
-        "medium": "brine",
-        "mediumColor": null,
-        "pipeColor": 2303787,
-        "radius": 0.045,
-        "runLength": 0.242
-      },
-      "position": [
-        -0.56,
-        3.85,
-        5.6865
-      ],
-      "rotation": [
-        0.0,
-        90.0,
-        180.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-S1-EJ-229-12",
-      "instanceable": false,
-      "label": "Tee on S1-EJ-229 \u2014 wash_branch.2 branches off",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.105,
-        "branchRadius": 0.016,
-        "branchSide": "+z",
-        "flangeColor": 9344412,
-        "medium": "default",
-        "mediumColor": null,
-        "pipeColor": 12040624,
-        "radius": 0.045,
-        "runLength": 0.175
-      },
-      "position": [
-        -0.56,
-        1.6,
-        5.6865
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        90.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-brine_branch_2-13",
-      "instanceable": false,
-      "label": "Tee on brine_branch.2 \u2014 filter_train.out+S1-L-002 branches off",
+      "label": "Tee on column_outlet.1 \u2014 S1-L-020 branches off",
       "nozzles": [],
       "params": {
         "branchLength": 0.181,
@@ -4877,19 +4774,193 @@ var PLANT_SPEC = {
         "flangeColor": 9344412,
         "medium": "brine",
         "mediumColor": null,
+        "pipeColor": 12040624,
+        "radius": 0.072,
+        "runLength": 0.346
+      },
+      "position": [
+        2.2,
+        1.9,
+        3.0565
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "transparent": false,
+      "type": "pipe_tee"
+    },
+    {
+      "id": "TE-wash_branch_1-8",
+      "instanceable": false,
+      "label": "Tee on wash_branch.1 \u2014 S1-L-021~1 branches off",
+      "nozzles": [],
+      "params": {
+        "branchLength": 0.068,
+        "branchRadius": 0.016,
+        "branchSide": "-z",
+        "flangeColor": 9344412,
+        "medium": "brine",
+        "mediumColor": null,
+        "pipeColor": 14999762,
+        "radius": 0.016,
+        "runLength": 0.132
+      },
+      "position": [
+        2.2,
+        2.1,
+        2.7965
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "transparent": false,
+      "type": "pipe_tee"
+    },
+    {
+      "id": "TE-vent_spool_1-9",
+      "instanceable": false,
+      "label": "Tee on vent_spool.1 \u2014 S1-L-063~1 branches off",
+      "nozzles": [],
+      "params": {
+        "branchLength": 0.068,
+        "branchRadius": 0.016,
+        "branchSide": "-z",
+        "flangeColor": 9344412,
+        "medium": "gas",
+        "mediumColor": null,
+        "pipeColor": 14999762,
+        "radius": 0.016,
+        "runLength": 0.132
+      },
+      "position": [
+        2.2,
+        4.1,
+        3.0565
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "transparent": false,
+      "type": "pipe_tee"
+    },
+    {
+      "id": "TE-brine_branch_2-10",
+      "instanceable": false,
+      "label": "Tee on brine_branch.2 \u2014 S1-EJ-228 branches off",
+      "nozzles": [],
+      "params": {
+        "branchLength": 0.126,
+        "branchRadius": 0.045,
+        "branchSide": "+z",
+        "flangeColor": 9344412,
+        "medium": "brine",
+        "mediumColor": null,
+        "pipeColor": 2303787,
+        "radius": 0.045,
+        "runLength": 0.242
+      },
+      "position": [
+        2.76,
+        3.85,
+        1.7565
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "transparent": false,
+      "type": "pipe_tee"
+    },
+    {
+      "id": "TE-S1-EJ-229-11",
+      "instanceable": false,
+      "label": "Tee on S1-EJ-229 \u2014 wash_branch.2 branches off",
+      "nozzles": [],
+      "params": {
+        "branchLength": 0.105,
+        "branchRadius": 0.016,
+        "branchSide": "-z",
+        "flangeColor": 9344412,
+        "medium": "default",
+        "mediumColor": null,
+        "pipeColor": 12040624,
+        "radius": 0.045,
+        "runLength": 0.175
+      },
+      "position": [
+        2.76,
+        1.6,
+        1.7565
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "transparent": false,
+      "type": "pipe_tee"
+    },
+    {
+      "id": "TE-brine_branch_2-12",
+      "instanceable": false,
+      "label": "Tee on brine_branch.2 \u2014 filter_train.out+S1-L-002 branches off",
+      "nozzles": [],
+      "params": {
+        "branchLength": 0.181,
+        "branchRadius": 0.072,
+        "branchSide": "+z",
+        "flangeColor": 9344412,
+        "medium": "brine",
+        "mediumColor": null,
         "pipeColor": 2303787,
         "radius": 0.072,
         "runLength": 0.346
       },
       "position": [
-        0.0,
+        2.2,
         2.75,
-        5.2865
+        2.1565
       ],
       "rotation": [
         0.0,
         0.0,
-        0.0
+        180.0
+      ],
+      "transparent": false,
+      "type": "pipe_tee"
+    },
+    {
+      "id": "TE-S1-L-030-13",
+      "instanceable": false,
+      "label": "Tee on S1-L-030 (a cross drawn as two tees)",
+      "nozzles": [],
+      "params": {
+        "branchLength": 0.068,
+        "branchRadius": 0.016,
+        "branchSide": "+z",
+        "flangeColor": 9344412,
+        "medium": "water",
+        "mediumColor": null,
+        "pipeColor": 14999762,
+        "radius": 0.016,
+        "runLength": 0.132
+      },
+      "position": [
+        2.2,
+        2.95,
+        1.1555
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        180.0
       ],
       "transparent": false,
       "type": "pipe_tee"
@@ -4911,56 +4982,27 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        0.0,
+        2.2,
         2.95,
-        6.2875
+        1.3175
       ],
       "rotation": [
         0.0,
         90.0,
-        0.0
+        180.0
       ],
       "transparent": false,
       "type": "pipe_tee"
     },
     {
-      "id": "TE-S1-L-030-15",
-      "instanceable": false,
-      "label": "Tee on S1-L-030 (a cross drawn as two tees)",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.068,
-        "branchRadius": 0.016,
-        "branchSide": "+z",
-        "flangeColor": 9344412,
-        "medium": "water",
-        "mediumColor": null,
-        "pipeColor": 14999762,
-        "radius": 0.016,
-        "runLength": 0.132
-      },
-      "position": [
-        0.0,
-        2.95,
-        6.1255
-      ],
-      "rotation": [
-        0.0,
-        90.0,
-        0.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-service_branch_2_water-16",
+      "id": "TE-service_branch_2_water-15",
       "instanceable": false,
       "label": "Tee on service_branch.2.water \u2014 service_branch.2.air branches off",
       "nozzles": [],
       "params": {
         "branchLength": 0.068,
         "branchRadius": 0.016,
-        "branchSide": "down",
+        "branchSide": "up",
         "flangeColor": 9344412,
         "medium": "water",
         "mediumColor": null,
@@ -4969,9 +5011,9 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        -0.56,
+        2.76,
         3.7,
-        6.2065
+        1.2365
       ],
       "rotation": [
         0.0,
@@ -4982,9 +5024,38 @@ var PLANT_SPEC = {
       "type": "pipe_tee"
     },
     {
-      "id": "TE-service_branch_2_air-17",
+      "id": "TE-air_supply-16",
       "instanceable": false,
-      "label": "Tee on service_branch.2.air \u2014 S1-L-070 branches off",
+      "label": "Tee on air_supply (a cross drawn as two tees)",
+      "nozzles": [],
+      "params": {
+        "branchLength": 0.068,
+        "branchRadius": 0.016,
+        "branchSide": "+z",
+        "flangeColor": 9344412,
+        "medium": "gas",
+        "mediumColor": null,
+        "pipeColor": 14999762,
+        "radius": 0.016,
+        "runLength": 0.132
+      },
+      "position": [
+        2.2,
+        3.7,
+        1.1555
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        180.0
+      ],
+      "transparent": false,
+      "type": "pipe_tee"
+    },
+    {
+      "id": "TE-air_supply-17",
+      "instanceable": false,
+      "label": "Tee on air_supply (a cross drawn as two tees)",
       "nozzles": [],
       "params": {
         "branchLength": 0.068,
@@ -4998,38 +5069,38 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        0.0,
+        2.2,
         3.7,
-        6.2065
+        1.3175
       ],
       "rotation": [
         0.0,
-        0.0,
-        0.0
+        90.0,
+        180.0
       ],
       "transparent": false,
       "type": "pipe_tee"
     },
     {
-      "id": "TE-column_outlet_2-18",
+      "id": "TE-S1-L-020-18",
       "instanceable": false,
-      "label": "Tee on column_outlet.2 \u2014 S1-L-020~1 branches off",
+      "label": "Branch connection on header S1-L-020 \u2014 column_outlet.2+overboard_branch.2, column_outlet.4+overboard_branch.4",
       "nozzles": [],
       "params": {
-        "branchLength": 0.181,
-        "branchRadius": 0.072,
-        "branchSide": "-z",
+        "branchLength": 0.097,
+        "branchRadius": 0.005,
+        "branchSide": "+z",
         "flangeColor": 9344412,
         "medium": "brine",
         "mediumColor": null,
         "pipeColor": 12040624,
-        "radius": 0.072,
-        "runLength": 0.346
+        "radius": 0.045,
+        "runLength": 0.15
       },
       "position": [
-        0.0,
+        2.2,
         1.9,
-        5.6865
+        1.7565
       ],
       "rotation": [
         0.0,
@@ -5047,7 +5118,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.068,
         "branchRadius": 0.016,
-        "branchSide": "-z",
+        "branchSide": "+z",
         "flangeColor": 9344412,
         "medium": "brine",
         "mediumColor": null,
@@ -5056,14 +5127,14 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        0.0,
+        2.2,
         2.1,
-        5.8655
+        1.5775
       ],
       "rotation": [
         0.0,
         90.0,
-        180.0
+        0.0
       ],
       "transparent": false,
       "type": "pipe_tee"
@@ -5076,7 +5147,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.068,
         "branchRadius": 0.016,
-        "branchSide": "+z",
+        "branchSide": "-z",
         "flangeColor": 9344412,
         "medium": "brine",
         "mediumColor": null,
@@ -5085,20 +5156,49 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        0.0,
+        2.2,
         2.1,
-        6.0275
+        1.4155
       ],
       "rotation": [
         0.0,
         90.0,
-        180.0
+        0.0
       ],
       "transparent": false,
       "type": "pipe_tee"
     },
     {
       "id": "TE-S1-L-063-21",
+      "instanceable": false,
+      "label": "Tee on S1-L-063 (a cross drawn as two tees)",
+      "nozzles": [],
+      "params": {
+        "branchLength": 0.068,
+        "branchRadius": 0.016,
+        "branchSide": "+z",
+        "flangeColor": 9344412,
+        "medium": "gas",
+        "mediumColor": null,
+        "pipeColor": 14999762,
+        "radius": 0.016,
+        "runLength": 0.132
+      },
+      "position": [
+        2.2,
+        4.1,
+        1.8375
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "transparent": false,
+      "type": "pipe_tee"
+    },
+    {
+      "id": "TE-S1-L-063-22",
       "instanceable": false,
       "label": "Tee on S1-L-063 (a cross drawn as two tees)",
       "nozzles": [],
@@ -5114,43 +5214,14 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        0.0,
+        2.2,
         4.1,
-        5.6055
+        1.6755
       ],
       "rotation": [
         0.0,
         90.0,
-        180.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-S1-L-063-22",
-      "instanceable": false,
-      "label": "Tee on S1-L-063 (a cross drawn as two tees)",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.068,
-        "branchRadius": 0.016,
-        "branchSide": "+z",
-        "flangeColor": 9344412,
-        "medium": "gas",
-        "mediumColor": null,
-        "pipeColor": 14999762,
-        "radius": 0.016,
-        "runLength": 0.132
-      },
-      "position": [
-        0.0,
-        4.1,
-        5.7675
-      ],
-      "rotation": [
-        0.0,
-        90.0,
-        180.0
+        0.0
       ],
       "transparent": false,
       "type": "pipe_tee"
@@ -5163,7 +5234,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.126,
         "branchRadius": 0.045,
-        "branchSide": "+z",
+        "branchSide": "-z",
         "flangeColor": 9344412,
         "medium": "brine",
         "mediumColor": null,
@@ -5172,14 +5243,14 @@ var PLANT_SPEC = {
         "runLength": 0.242
       },
       "position": [
-        0.56,
+        1.64,
         3.85,
-        4.3865
+        3.0565
       ],
       "rotation": [
         0.0,
         90.0,
-        180.0
+        0.0
       ],
       "transparent": false,
       "type": "pipe_tee"
@@ -5192,7 +5263,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.105,
         "branchRadius": 0.016,
-        "branchSide": "+z",
+        "branchSide": "-z",
         "flangeColor": 9344412,
         "medium": "default",
         "mediumColor": null,
@@ -5201,9 +5272,9 @@ var PLANT_SPEC = {
         "runLength": 0.175
       },
       "position": [
-        0.56,
+        1.64,
         1.6,
-        4.3865
+        3.0565
       ],
       "rotation": [
         0.0,
@@ -5221,7 +5292,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.068,
         "branchRadius": 0.016,
-        "branchSide": "up",
+        "branchSide": "down",
         "flangeColor": 9344412,
         "medium": "water",
         "mediumColor": null,
@@ -5230,9 +5301,9 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        0.56,
+        1.64,
         3.7,
-        4.9065
+        2.5365
       ],
       "rotation": [
         0.0,
@@ -5250,7 +5321,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.126,
         "branchRadius": 0.045,
-        "branchSide": "+z",
+        "branchSide": "-z",
         "flangeColor": 9344412,
         "medium": "brine",
         "mediumColor": null,
@@ -5259,14 +5330,14 @@ var PLANT_SPEC = {
         "runLength": 0.242
       },
       "position": [
-        0.56,
+        1.64,
         3.85,
-        5.6865
+        1.7565
       ],
       "rotation": [
         0.0,
         90.0,
-        180.0
+        0.0
       ],
       "transparent": false,
       "type": "pipe_tee"
@@ -5279,7 +5350,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.105,
         "branchRadius": 0.016,
-        "branchSide": "+z",
+        "branchSide": "-z",
         "flangeColor": 9344412,
         "medium": "default",
         "mediumColor": null,
@@ -5288,9 +5359,9 @@ var PLANT_SPEC = {
         "runLength": 0.175
       },
       "position": [
-        0.56,
+        1.64,
         1.6,
-        5.6865
+        1.7565
       ],
       "rotation": [
         0.0,
@@ -5308,7 +5379,7 @@ var PLANT_SPEC = {
       "params": {
         "branchLength": 0.068,
         "branchRadius": 0.016,
-        "branchSide": "up",
+        "branchSide": "down",
         "flangeColor": 9344412,
         "medium": "water",
         "mediumColor": null,
@@ -5317,9 +5388,9 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        0.56,
+        1.64,
         3.7,
-        6.2065
+        1.2365
       ],
       "rotation": [
         0.0,
@@ -5346,9 +5417,9 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         1.9,
-        -5.6555
+        -2.9255
       ],
       "rotation": [
         0.0,
@@ -5375,9 +5446,9 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         1.9,
-        -4.3415
+        -1.6115
       ],
       "rotation": [
         0.0,
@@ -5390,7 +5461,7 @@ var PLANT_SPEC = {
     {
       "id": "TE-S1-L-003_1-31",
       "instanceable": false,
-      "label": "Tee on S1-L-003.1 \u2014 S1-L-020~2 branches off",
+      "label": "Tee on S1-L-003.1 \u2014 S1-L-020.flush branches off",
       "nozzles": [],
       "params": {
         "branchLength": 0.223,
@@ -5404,9 +5475,9 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        -1.08,
+        -3.28,
         1.9,
-        -1.5893
+        0.1108
       ],
       "rotation": [
         0.0,
@@ -5433,9 +5504,9 @@ var PLANT_SPEC = {
         "runLength": 0.13
       },
       "position": [
-        -1.08,
+        -3.28,
         1.9,
-        -4.0415
+        -1.3115
       ],
       "rotation": [
         0.0,
@@ -5462,9 +5533,9 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         2.2,
-        -3.1775
+        -0.4475
       ],
       "rotation": [
         0.0,
@@ -5477,7 +5548,7 @@ var PLANT_SPEC = {
     {
       "id": "TE-filter_train_s2in-34",
       "instanceable": false,
-      "label": "Tee on filter_train.s2in \u2014 flush_bp.2 branches off",
+      "label": "Tee on filter_train.s2in (a cross drawn as two tees)",
       "nozzles": [],
       "params": {
         "branchLength": 0.223,
@@ -5491,9 +5562,9 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         2.2,
-        -2.6875
+        -0.1855
       ],
       "rotation": [
         0.0,
@@ -5506,12 +5577,12 @@ var PLANT_SPEC = {
     {
       "id": "TE-filter_train_s2in-35",
       "instanceable": false,
-      "label": "Tee on filter_train.s2in \u2014 flush_bp.1 branches off",
+      "label": "Tee on filter_train.s2in (a cross drawn as two tees)",
       "nozzles": [],
       "params": {
         "branchLength": 0.223,
         "branchRadius": 0.09,
-        "branchSide": "-z",
+        "branchSide": "+z",
         "flangeColor": 9344412,
         "medium": "brine",
         "mediumColor": null,
@@ -5520,9 +5591,9 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         2.2,
-        -2.4075
+        0.2705
       ],
       "rotation": [
         0.0,
@@ -5535,7 +5606,7 @@ var PLANT_SPEC = {
     {
       "id": "TE-filter_train_s2in-36",
       "instanceable": false,
-      "label": "Tee on filter_train.s2in \u2014 flush_bp.1 branches off",
+      "label": "Tee on filter_train.s2in (a cross drawn as two tees)",
       "nozzles": [],
       "params": {
         "branchLength": 0.223,
@@ -5549,9 +5620,9 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         2.2,
-        -1.6565
+        0.5655
       ],
       "rotation": [
         0.0,
@@ -5564,7 +5635,36 @@ var PLANT_SPEC = {
     {
       "id": "TE-filter_train_s2in-37",
       "instanceable": false,
-      "label": "Tee on filter_train.s2in \u2014 flush_bp.2 branches off",
+      "label": "Tee on filter_train.s2in (a cross drawn as two tees)",
+      "nozzles": [],
+      "params": {
+        "branchLength": 0.223,
+        "branchRadius": 0.09,
+        "branchSide": "+z",
+        "flangeColor": 9344412,
+        "medium": "brine",
+        "mediumColor": null,
+        "pipeColor": 2303787,
+        "radius": 0.09,
+        "runLength": 0.426
+      },
+      "position": [
+        -2.2,
+        2.2,
+        1.0215
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        180.0
+      ],
+      "transparent": false,
+      "type": "pipe_tee"
+    },
+    {
+      "id": "TE-filter_train_s2_1-38",
+      "instanceable": false,
+      "label": "Tee on filter_train.s2.1 \u2014 filter_train.s2in~3 branches off",
       "nozzles": [],
       "params": {
         "branchLength": 0.223,
@@ -5578,42 +5678,13 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         2.2,
-        -1.3765
+        1.1835
       ],
       "rotation": [
         0.0,
-        90.0,
-        180.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-filter_train_s2in-38",
-      "instanceable": false,
-      "label": "Tee on filter_train.s2in \u2014 filter_train.s2.1 branches off",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.223,
-        "branchRadius": 0.09,
-        "branchSide": "+z",
-        "flangeColor": 9344412,
-        "medium": "brine",
-        "mediumColor": null,
-        "pipeColor": 2303787,
-        "radius": 0.09,
-        "runLength": 0.426
-      },
-      "position": [
         0.0,
-        2.2,
-        -0.9865
-      ],
-      "rotation": [
-        0.0,
-        90.0,
         180.0
       ],
       "transparent": false,
@@ -5622,7 +5693,7 @@ var PLANT_SPEC = {
     {
       "id": "TE-filter_train_s2_1o-39",
       "instanceable": false,
-      "label": "Tee on filter_train.s2.1o \u2014 filter_train.s2.2o branches off",
+      "label": "Tee on filter_train.s2.1o \u2014 filter_train.s3in branches off",
       "nozzles": [],
       "params": {
         "branchLength": 0.223,
@@ -5636,27 +5707,27 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         2.5,
-        0.0635
+        1.4835
       ],
       "rotation": [
         0.0,
-        90.0,
+        0.0,
         180.0
       ],
       "transparent": false,
       "type": "pipe_tee"
     },
     {
-      "id": "TE-filter_train_s3in-40",
+      "id": "TE-filter_train_s3_1-40",
       "instanceable": false,
-      "label": "Tee on filter_train.s3in \u2014 filter_train.s3.1 branches off",
+      "label": "Tee on filter_train.s3.1 \u2014 filter_train.s3in branches off",
       "nozzles": [],
       "params": {
         "branchLength": 0.223,
         "branchRadius": 0.09,
-        "branchSide": "+z",
+        "branchSide": "-z",
         "flangeColor": 9344412,
         "medium": "brine",
         "mediumColor": null,
@@ -5665,13 +5736,13 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         2.5,
-        0.5135
+        1.9335
       ],
       "rotation": [
         0.0,
-        90.0,
+        0.0,
         180.0
       ],
       "transparent": false,
@@ -5680,7 +5751,7 @@ var PLANT_SPEC = {
     {
       "id": "TE-filter_train_s3_1o-41",
       "instanceable": false,
-      "label": "Tee on filter_train.s3.1o \u2014 filter_train.s3.2o branches off",
+      "label": "Tee on filter_train.s3.1o \u2014 filter_train.out branches off",
       "nozzles": [],
       "params": {
         "branchLength": 0.223,
@@ -5694,13 +5765,13 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         2.2,
-        1.5635
+        2.2335
       ],
       "rotation": [
         0.0,
-        90.0,
+        0.0,
         180.0
       ],
       "transparent": false,
@@ -5723,9 +5794,9 @@ var PLANT_SPEC = {
         "runLength": 0.164
       },
       "position": [
-        0.0,
+        -2.2,
         2.2,
-        1.978
+        2.648
       ],
       "rotation": [
         0.0,
@@ -5736,9 +5807,9 @@ var PLANT_SPEC = {
       "type": "pipe_tee"
     },
     {
-      "id": "TE-S1-L-020-43",
+      "id": "TE-S1-L-020_psv-43",
       "instanceable": false,
-      "label": "Branch connection on header S1-L-020 \u2014 psv_discharge.1",
+      "label": "Branch connection on header S1-L-020.psv \u2014 psv_discharge.1",
       "nozzles": [],
       "params": {
         "branchLength": 0.109,
@@ -5752,9 +5823,9 @@ var PLANT_SPEC = {
         "runLength": 0.164
       },
       "position": [
-        -1.08,
+        -3.28,
         1.9,
-        1.978
+        2.648
       ],
       "rotation": [
         0.0,
@@ -5767,23 +5838,23 @@ var PLANT_SPEC = {
     {
       "id": "TE-filter_train_out-44",
       "instanceable": false,
-      "label": "Branch connection on header filter_train.out \u2014 psv_discharge.2",
+      "label": "Branch connection on header filter_train.out \u2014 psv_discharge.2+S1-L-020.psv",
       "nozzles": [],
       "params": {
-        "branchLength": 0.109,
+        "branchLength": 0.153,
         "branchRadius": 0.005,
         "branchSide": "+z",
         "flangeColor": 9344412,
         "medium": "brine",
         "mediumColor": null,
         "pipeColor": 2303787,
-        "radius": 0.055,
-        "runLength": 0.164
+        "radius": 0.09,
+        "runLength": 0.23
       },
       "position": [
-        0.0,
+        -2.2,
         2.2,
-        2.277
+        2.947
       ],
       "rotation": [
         0.0,
@@ -5794,36 +5865,7 @@ var PLANT_SPEC = {
       "type": "pipe_tee"
     },
     {
-      "id": "TE-S1-L-020-45",
-      "instanceable": false,
-      "label": "Branch connection on header S1-L-020 \u2014 psv_discharge.2",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.109,
-        "branchRadius": 0.005,
-        "branchSide": "+z",
-        "flangeColor": 9344412,
-        "medium": "brine",
-        "mediumColor": null,
-        "pipeColor": 12040624,
-        "radius": 0.055,
-        "runLength": 0.164
-      },
-      "position": [
-        -1.08,
-        1.9,
-        2.277
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        90.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-filter_train_out-46",
+      "id": "TE-filter_train_out-45",
       "instanceable": false,
       "label": "Tee on filter_train.out \u2014 bypass branches off",
       "nozzles": [],
@@ -5839,9 +5881,9 @@ var PLANT_SPEC = {
         "runLength": 0.426
       },
       "position": [
-        0.0,
+        -2.2,
         2.2,
-        1.778
+        2.448
       ],
       "rotation": [
         0.0,
@@ -5850,34 +5892,6 @@ var PLANT_SPEC = {
       ],
       "transparent": false,
       "type": "pipe_tee"
-    },
-    {
-      "id": "HC-condensate-1",
-      "instanceable": false,
-      "label": "Condensate drain of the receivers S1-\u0411-7 after the hand valve S1-HV-074 \u2014 open end over the deck",
-      "nozzles": [],
-      "params": {
-        "flangeColor": 12107976,
-        "handwheelRadius": 0.06,
-        "padColor": 9079429,
-        "pipeColor": 7240587,
-        "pipeRadius": 0.016,
-        "riserHeight": 0.116,
-        "runLength": 0.5,
-        "valveColor": 3046747
-      },
-      "position": [
-        -0.8,
-        0.9,
-        0.393
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "transparent": false,
-      "type": "pipe_tie_in"
     },
     {
       "id": "HC-S1-L-030_1-0",
@@ -5895,9 +5909,9 @@ var PLANT_SPEC = {
         "valveColor": 3046747
       },
       "position": [
-        1.01,
+        1.19,
         0.9,
-        6.4865
+        0.9565
       ],
       "rotation": [
         0.0,
@@ -5908,14 +5922,14 @@ var PLANT_SPEC = {
       "type": "pipe_tie_in"
     },
     {
-      "id": "TE-S1-L-030-47",
+      "id": "TE-S1-L-030-46",
       "instanceable": false,
       "label": "Tee on S1-L-030 \u2014 salt_wash branches off",
       "nozzles": [],
       "params": {
         "branchLength": 0.068,
         "branchRadius": 0.016,
-        "branchSide": "up",
+        "branchSide": "down",
         "flangeColor": 9344412,
         "medium": "water",
         "mediumColor": null,
@@ -5924,14 +5938,14 @@ var PLANT_SPEC = {
         "runLength": 0.132
       },
       "position": [
-        0.3,
+        1.9,
         2.95,
-        6.4865
+        0.9565
       ],
       "rotation": [
         0.0,
         0.0,
-        180.0
+        0.0
       ],
       "transparent": false,
       "type": "pipe_tee"
@@ -5952,9 +5966,9 @@ var PLANT_SPEC = {
         "valveColor": 3046747
       },
       "position": [
-        0.3,
+        1.9,
         0.9,
-        6.4865
+        0.9565
       ],
       "rotation": [
         0.0,
@@ -5965,14 +5979,42 @@ var PLANT_SPEC = {
       "type": "pipe_tie_in"
     },
     {
-      "id": "TE-S1-L-071-48",
+      "id": "HC-condensate-1",
       "instanceable": false,
-      "label": "Tee on S1-L-071 \u2014 S1-L-071.b branches off",
+      "label": "Condensate drain of the receivers S1-\u0411-7 after the hand valve S1-HV-074 \u2014 open end over the deck",
+      "nozzles": [],
+      "params": {
+        "flangeColor": 12107976,
+        "handwheelRadius": 0.06,
+        "padColor": 9079429,
+        "pipeColor": 7240587,
+        "pipeRadius": 0.016,
+        "riserHeight": 0.116,
+        "runLength": 0.5,
+        "valveColor": 3046747
+      },
+      "position": [
+        1.95,
+        0.9,
+        -0.104
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "transparent": false,
+      "type": "pipe_tie_in"
+    },
+    {
+      "id": "TE-S1-L-071-47",
+      "instanceable": false,
+      "label": "Tee on S1-L-071 \u2014 S1-L-071~2 branches off",
       "nozzles": [],
       "params": {
         "branchLength": 0.056,
         "branchRadius": 0.01,
-        "branchSide": "+z",
+        "branchSide": "-z",
         "flangeColor": 9344412,
         "medium": "instrument_air",
         "mediumColor": null,
@@ -5981,9 +6023,9 @@ var PLANT_SPEC = {
         "runLength": 0.11
       },
       "position": [
-        0.0,
+        2.2,
         4.15,
-        3.4865
+        0.9165
       ],
       "rotation": [
         0.0,
@@ -6081,7 +6123,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.1.air",
       "id": "S1-XV-102",
       "label": "blow-down air inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
-      "position": 0.4416,
+      "position": 0.338,
       "size": 0.375,
       "state": "closed",
       "type": "valve"
@@ -6090,7 +6132,7 @@ var PLANT_SPEC = {
       "color": 9807270,
       "connectionId": "service_branch.1.air",
       "id": "S1-CV-124",
-      "position": 0.7782,
+      "position": 0.7371,
       "size": 0.375,
       "type": "checkvalve"
     },
@@ -6099,7 +6141,7 @@ var PLANT_SPEC = {
       "connectionId": "column_outlet.1+overboard_branch.1",
       "id": "S1-XV-111",
       "label": "outlet to overboard \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
-      "position": 0.6774,
+      "position": 0.7882,
       "size": 0.375,
       "state": "closed",
       "type": "valve"
@@ -6220,7 +6262,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.2.air",
       "id": "S1-XV-202",
       "label": "blow-down air inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
-      "position": 0.338,
+      "position": 0.4416,
       "size": 0.375,
       "state": "closed",
       "type": "valve"
@@ -6229,7 +6271,7 @@ var PLANT_SPEC = {
       "color": 9807270,
       "connectionId": "service_branch.2.air",
       "id": "S1-CV-224",
-      "position": 0.7371,
+      "position": 0.7782,
       "size": 0.375,
       "type": "checkvalve"
     },
@@ -6238,7 +6280,7 @@ var PLANT_SPEC = {
       "connectionId": "column_outlet.2+overboard_branch.2",
       "id": "S1-XV-211",
       "label": "outlet to overboard \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
-      "position": 0.7882,
+      "position": 0.6774,
       "size": 0.375,
       "state": "closed",
       "type": "valve"
@@ -6359,7 +6401,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.3.air",
       "id": "S1-XV-302",
       "label": "blow-down air inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
-      "position": 0.4416,
+      "position": 0.338,
       "size": 0.375,
       "state": "closed",
       "type": "valve"
@@ -6368,7 +6410,7 @@ var PLANT_SPEC = {
       "color": 9807270,
       "connectionId": "service_branch.3.air",
       "id": "S1-CV-324",
-      "position": 0.7782,
+      "position": 0.7371,
       "size": 0.375,
       "type": "checkvalve"
     },
@@ -6377,7 +6419,7 @@ var PLANT_SPEC = {
       "connectionId": "column_outlet.3+overboard_branch.3",
       "id": "S1-XV-311",
       "label": "outlet to overboard \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
-      "position": 0.6774,
+      "position": 0.7882,
       "size": 0.375,
       "state": "closed",
       "type": "valve"
@@ -6498,7 +6540,7 @@ var PLANT_SPEC = {
       "connectionId": "service_branch.4.air",
       "id": "S1-XV-402",
       "label": "blow-down air inlet \u2014 pneumatic, normally closed, Georg Fischer SYGEF Standard PVDF 546 Pro",
-      "position": 0.338,
+      "position": 0.4416,
       "size": 0.375,
       "state": "closed",
       "type": "valve"
@@ -6507,7 +6549,7 @@ var PLANT_SPEC = {
       "color": 9807270,
       "connectionId": "service_branch.4.air",
       "id": "S1-CV-424",
-      "position": 0.7371,
+      "position": 0.7782,
       "size": 0.375,
       "type": "checkvalve"
     },
@@ -6516,7 +6558,7 @@ var PLANT_SPEC = {
       "connectionId": "column_outlet.4+overboard_branch.4",
       "id": "S1-XV-411",
       "label": "outlet to overboard \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
-      "position": 0.7882,
+      "position": 0.6774,
       "size": 0.375,
       "state": "closed",
       "type": "valve"
@@ -6564,7 +6606,7 @@ var PLANT_SPEC = {
     },
     {
       "color": 9807270,
-      "connectionId": "filter_train.s2in~3",
+      "connectionId": "filter_train.s2in~2",
       "id": "S1-XV-023",
       "label": "Brine isolation after the self-cleaning filter S1-\u0424-1: open in operation; the PLC closes it to flush \u0424-1 and the column flow then passes the back-pressure valves \u2014 pneumatic, normally closed, Georg Fischer PROGEF Standard PP-H 546 Pro",
       "position": 0.5,
@@ -6574,31 +6616,31 @@ var PLANT_SPEC = {
     },
     {
       "color": 9807270,
-      "connectionId": "filter_train.s2in+filter_train.s2.2",
-      "id": "S1-HV-006",
-      "label": "Hand isolation valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
-      "opening": 0.0,
-      "position": 0.9535,
-      "size": 0.375,
-      "type": "handvalve"
-    },
-    {
-      "color": 9807270,
       "connectionId": "filter_train.s2.1",
       "id": "S1-HV-005",
       "label": "Hand isolation valve, normally open \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 1.0,
-      "position": 0.041,
+      "position": 0.0777,
       "size": 0.375,
       "type": "handvalve"
     },
     {
       "color": 9807270,
-      "connectionId": "filter_train.s2.1o+filter_train.s3in",
+      "connectionId": "filter_train.s2.1o",
       "id": "S1-HV-007",
       "label": "Hand isolation valve, normally open \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 1.0,
-      "position": 0.2586,
+      "position": 0.97,
+      "size": 0.375,
+      "type": "handvalve"
+    },
+    {
+      "color": 9807270,
+      "connectionId": "filter_train.s2.2",
+      "id": "S1-HV-006",
+      "label": "Hand isolation valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
+      "opening": 0.0,
+      "position": 0.058,
       "size": 0.375,
       "type": "handvalve"
     },
@@ -6614,57 +6656,33 @@ var PLANT_SPEC = {
     },
     {
       "color": 9807270,
-      "connectionId": "filter_train.s3in+filter_train.s3.2",
-      "id": "S1-HV-011",
-      "label": "Hand isolation valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
-      "opening": 0.0,
-      "position": 0.9535,
-      "size": 0.375,
-      "type": "handvalve"
-    },
-    {
-      "color": 9807270,
       "connectionId": "filter_train.s3.1",
       "id": "S1-HV-010",
       "label": "Hand isolation valve, normally open \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 1.0,
-      "position": 0.0409,
+      "position": 0.0777,
       "size": 0.375,
       "type": "handvalve"
     },
     {
       "color": 9807270,
-      "connectionId": "filter_train.s3.1o+filter_train.out",
+      "connectionId": "filter_train.s3.1o",
       "id": "S1-HV-012",
       "label": "Hand isolation valve, normally open \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 1.0,
-      "position": 0.2585,
+      "position": 0.97,
       "size": 0.375,
       "type": "handvalve"
     },
     {
       "color": 9807270,
-      "connectionId": "filter_train.out+S1-L-002",
-      "id": "S1-FIT-015",
-      "jitter": 0.0,
-      "position": 0.176,
-      "readout": false,
+      "connectionId": "filter_train.s3.2",
+      "id": "S1-HV-011",
+      "label": "Hand isolation valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
+      "opening": 0.0,
+      "position": 0.058,
       "size": 0.375,
-      "type": "flowmeter",
-      "unit": "m\u00b3/h",
-      "value": 99.0
-    },
-    {
-      "color": 9807270,
-      "connectionId": "filter_train.out+S1-L-002",
-      "id": "S1-TIT-016",
-      "jitter": 0.0,
-      "label": "Brine temperature after the filters; design range 15\u201340 \u00b0C (no heating), the reading shows the low end \u2014 Georg Fischer Signet 2350",
-      "position": 0.2169,
-      "size": 0.375,
-      "type": "temperature",
-      "unit": "\u00b0C",
-      "value": 15.0
+      "type": "handvalve"
     },
     {
       "color": 9807270,
@@ -6682,7 +6700,7 @@ var PLANT_SPEC = {
       "id": "S1-PCV-021",
       "kind": "backpressure",
       "label": "Back-pressure valve of the self-cleaning filter flush, parallel to S1-XV-023: closed in operation; when the PLC closes S1-XV-023 to flush \u0424-1 it holds the \u0424-1 outlet pressure \u2014 Plast-O-Matic RVDT 4\" Kynar PVDF",
-      "position": 0.5,
+      "position": 0.7285,
       "positioner": false,
       "setpoint": "2.9 barg upstream",
       "size": 0.375,
@@ -6713,9 +6731,9 @@ var PLANT_SPEC = {
     },
     {
       "color": 9807270,
-      "connectionId": "psv_discharge.2",
+      "connectionId": "psv_discharge.2+S1-L-020.psv",
       "id": "S1-PSV-018",
-      "position": 0.2615,
+      "position": 0.0733,
       "set": 1.6,
       "size": 0.375,
       "type": "psv"
@@ -6726,7 +6744,17 @@ var PLANT_SPEC = {
       "id": "S1-HV-004",
       "label": "Hand filter bypass valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 0.0,
-      "position": 0.0351,
+      "position": 0.0475,
+      "size": 0.375,
+      "type": "handvalve"
+    },
+    {
+      "color": 9807270,
+      "connectionId": "salt_wash",
+      "id": "S1-HV-035",
+      "label": "Hand salt wash-down hose valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
+      "opening": 0.0,
+      "position": 0.7304,
       "size": 0.375,
       "type": "handvalve"
     },
@@ -6746,7 +6774,7 @@ var PLANT_SPEC = {
       "id": "S1-PCV-072",
       "label": "Blow-down air pressure regulator, 0.5 barg \u2014 Riegler FUTURA",
       "opening": 1.0,
-      "position": 0.0726,
+      "position": 0.138,
       "size": 0.375,
       "type": "handvalve"
     },
@@ -6754,7 +6782,7 @@ var PLANT_SPEC = {
       "color": 9807270,
       "connectionId": "air_supply+S1-L-070",
       "id": "S1-PSV-073",
-      "position": 0.1086,
+      "position": 0.2063,
       "set": 1.0,
       "size": 0.375,
       "type": "psv"
@@ -6765,19 +6793,33 @@ var PLANT_SPEC = {
       "id": "S1-HV-075",
       "label": "Blow-down air throttle after the safety valve, Kv set with a tool on commissioning \u2014 Georg Fischer SYGEF Standard PVDF Throttle valve type V251",
       "opening": 0.3,
-      "position": 0.1277,
+      "position": 0.2426,
       "size": 0.375,
       "type": "handvalve"
     },
     {
       "color": 9807270,
-      "connectionId": "salt_wash",
-      "id": "S1-HV-035",
-      "label": "Hand salt wash-down hose valve, normally closed \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
-      "opening": 0.0,
-      "position": 0.7304,
+      "connectionId": "filter_train.out+S1-L-002",
+      "id": "S1-FIT-015",
+      "jitter": 0.0,
+      "position": 0.0864,
+      "readout": false,
       "size": 0.375,
-      "type": "handvalve"
+      "type": "flowmeter",
+      "unit": "m\u00b3/h",
+      "value": 99.0
+    },
+    {
+      "color": 9807270,
+      "connectionId": "filter_train.out+S1-L-002",
+      "id": "S1-TIT-016",
+      "jitter": 0.0,
+      "label": "Brine temperature after the filters; design range 15\u201340 \u00b0C (no heating), the reading shows the low end \u2014 Georg Fischer Signet 2350",
+      "position": 0.1065,
+      "size": 0.375,
+      "type": "temperature",
+      "unit": "\u00b0C",
+      "value": 15.0
     },
     {
       "color": 9807270,
@@ -6785,13 +6827,13 @@ var PLANT_SPEC = {
       "id": "S1-HV-001",
       "label": "Hand isolation valve, normally open \u2014 Georg Fischer PROGEF Standard PP-H 546 Pro",
       "opening": 1.0,
-      "position": 0.385,
+      "position": 0.4982,
       "size": 0.375,
       "type": "handvalve"
     },
     {
       "color": 9807270,
-      "connectionId": "filter_train.s2in~5",
+      "connectionId": "filter_train.s2in~3",
       "id": "S1-PDIT-009",
       "jitter": 0.0,
       "label": "\u0394P across the 10\u201325 \u00b5m cartridge stage (duty and standby housings): clean 0.1 bar, change the cartridges at 0.8 bar \u2014 Georg Fischer Signet 2450",
@@ -6799,18 +6841,18 @@ var PLANT_SPEC = {
       "offset": [
         0.15,
         0.475,
-        -0.0131
+        -0.0102
       ],
       "position": 0.97,
       "size": 1.0,
       "standHeight": 0.0,
       "tapHigh": {
-        "connectionId": "filter_train.s2in~5",
+        "connectionId": "filter_train.s2in~3",
         "position": 0.97
       },
       "tapLow": {
-        "connectionId": "filter_train.s2.1o+filter_train.s3in",
-        "position": 0.4447
+        "connectionId": "filter_train.s3in",
+        "position": 0.03
       },
       "type": "dp",
       "unit": "bar",
@@ -6836,8 +6878,8 @@ var PLANT_SPEC = {
         "position": 0.5
       },
       "tapLow": {
-        "connectionId": "filter_train.s3.1o+filter_train.out",
-        "position": 0.4447
+        "connectionId": "filter_train.out",
+        "position": 0.97
       },
       "type": "dp",
       "unit": "bar",
@@ -6857,9 +6899,9 @@ var PLANT_SPEC = {
         "equipmentId": null,
         "name": "Overview",
         "position": [
-          -17.0,
-          13.0,
-          -16.0
+          -10.5,
+          8.0,
+          -9.5
         ],
         "target": [
           0.0,
@@ -6871,42 +6913,42 @@ var PLANT_SPEC = {
         "equipmentId": "S1-\u041a-1",
         "name": "Valve battery (module A)",
         "position": [
-          -1.6,
+          0.6,
           4.3,
-          9.6865
+          6.9565
         ],
         "target": [
-          0.0,
+          2.2,
           1.8,
-          5.0865
+          2.3565
         ]
       },
       {
         "equipmentId": null,
         "name": "Pump and filters (module B)",
         "position": [
-          -7.0,
+          -9.2,
           5.0,
-          -4.45
+          -2.5
         ],
         "target": [
-          0.0,
+          -2.2,
           1.0,
-          -1.95
+          0.0
         ]
       },
       {
         "equipmentId": null,
         "name": "Water hose coupling and overboard outfalls (end of module A)",
         "position": [
+          8.2,
           6.0,
-          6.0,
-          12.0865
+          9.3565
         ],
         "target": [
-          0.0,
+          2.2,
           1.6,
-          5.0865
+          2.3565
         ]
       }
     ],
@@ -6941,8 +6983,8 @@ var PLANT_SPEC = {
             "S1-EJ-428",
             "S1-EJ-429+column_outlet.4",
             "S1-L-001",
-            "S1-L-020~1",
-            "S1-L-020~2",
+            "S1-L-020",
+            "S1-L-020.flush",
             "S1-L-063~1",
             "S1-L-063~1~x22",
             "S1-L-063~2",
@@ -6959,14 +7001,14 @@ var PLANT_SPEC = {
             "filter_train.out",
             "filter_train.out+S1-L-002",
             "filter_train.s2.1",
-            "filter_train.s2.1o+filter_train.s3in",
+            "filter_train.s2.1o",
             "filter_train.s2in~1",
+            "filter_train.s2in~1~x35",
             "filter_train.s2in~2",
+            "filter_train.s2in~2~x37",
             "filter_train.s2in~3",
-            "filter_train.s2in~4",
-            "filter_train.s2in~5",
             "filter_train.s3.1",
-            "filter_train.s3.1o+filter_train.out",
+            "filter_train.s3.1o",
             "filter_train.s3in",
             "pump_discharge.1",
             "pump_discharge.2",
@@ -7018,11 +7060,11 @@ var PLANT_SPEC = {
             "S1-EJ-329+column_outlet.3",
             "S1-EJ-428",
             "S1-EJ-429+column_outlet.4",
-            "S1-L-020~1",
-            "S1-L-020~2",
+            "S1-L-020",
+            "S1-L-020.flush",
             "S1-L-070",
             "air_supply+S1-L-070",
-            "air_supply+S1-L-070~x7",
+            "air_supply+S1-L-070~x17",
             "column_outlet.1+overboard_branch.1",
             "column_outlet.2+overboard_branch.2",
             "column_outlet.3+overboard_branch.3",
@@ -7072,8 +7114,8 @@ var PLANT_SPEC = {
             "S1-EJ-329+column_outlet.3",
             "S1-EJ-428",
             "S1-EJ-429+column_outlet.4",
-            "S1-L-020~1",
-            "S1-L-020~2",
+            "S1-L-020",
+            "S1-L-020.flush",
             "S1-L-063~1",
             "S1-L-063~1~x22",
             "S1-L-063~2",
@@ -7134,11 +7176,11 @@ var PLANT_SPEC = {
             "S1-EJ-329+column_outlet.3",
             "S1-EJ-428",
             "S1-EJ-429+column_outlet.4",
-            "S1-L-020~1",
-            "S1-L-020~2",
+            "S1-L-020",
+            "S1-L-020.flush",
             "S1-L-070",
             "air_supply+S1-L-070",
-            "air_supply+S1-L-070~x7",
+            "air_supply+S1-L-070~x17",
             "service_branch.1",
             "service_branch.1.air",
             "service_branch.2",
@@ -7201,7 +7243,7 @@ var PLANT_SPEC = {
           "activeConnections": [
             "S1-L-070",
             "air_supply+S1-L-070",
-            "air_supply+S1-L-070~x7"
+            "air_supply+S1-L-070~x17"
           ],
           "counter": {
             "brine": [
@@ -7262,7 +7304,7 @@ var PLANT_SPEC = {
           "activeConnections": [
             "S1-L-070",
             "air_supply+S1-L-070",
-            "air_supply+S1-L-070~x7"
+            "air_supply+S1-L-070~x17"
           ],
           "counter": {
             "brine": [
@@ -7664,6 +7706,11 @@ var PLANT_SPEC = {
             {
               "color": null,
               "key": "\u2248",
+              "text": "operator cabin S1-\u041a\u041e-1 (FRP) \u2014 control_cabinet without HMI, cabin envelope; S1-\u0428\u0423-1 inside"
+            },
+            {
+              "color": null,
+              "key": "\u2248",
               "text": "float air vent S1-AV-k06, blow-down regulator S1-PCV-072, min-flow throttles \u2014 handvalve"
             }
           ],
@@ -7703,13 +7750,13 @@ var PLANT_SPEC = {
     },
     "popups": [
       {
-        "body": "Skid footprint <b>13.87 \u00d7 2.4 m</b>, dry mass <b>4.3 t</b>, operating <b>8.9 t</b> (skid_layout).<br>Deck size, payload, tie-down points, power, brine intake and overboard points \u2014 <b>[PLACEHOLDER: Bell platform data]</b>; the deck is drawn as a square around the skid modules, a 0.8 m walkway and the intake well \u2014 a drawing, not the platform size; platform size, payload and draft per Bell.<br>No steel on deck: FRP frames, plastic piping, titanium fasteners.",
+        "body": "Skid footprint <b>8.41 \u00d7 6.8 m</b>, dry mass <b>4.8 t</b>, operating <b>9.3 t</b> (skid_layout).<br>Deck size, payload, tie-down points, power, brine intake and overboard points \u2014 <b>[PLACEHOLDER: Bell platform data]</b>; the deck is drawn as a square around the skid modules, a 0.8 m walkway and the intake well \u2014 a drawing, not the platform size; platform size, payload and draft per Bell.<br>No steel on deck: FRP frames, plastic piping, titanium fasteners.",
         "equipmentId": "PON-1",
         "status": "draft",
         "title": "Pontoon (Bell)"
       },
       {
-        "body": "Brine pump, self-cleaning filters, duty/standby cartridge stages with a hand bypass, four relief valves to overboard, compressor package, control cabinet.<br>Module 9.97 \u00d7 2.4 \u00d7 3.2 m; dry 2.2 t, operating 4 t (skid_layout).",
+        "body": "Brine pump, self-cleaning filters, duty/standby cartridge stages with a hand bypass, four relief valves to overboard, compressor package, control cabinet.<br>Module 8.41 \u00d7 2.4 \u00d7 3.2 m; dry 1.7 t, operating 3.3 t (skid_layout).",
         "equipmentId": "FR-B",
         "status": "draft",
         "title": "Module B"
@@ -7719,6 +7766,12 @@ var PLANT_SPEC = {
         "equipmentId": "FR-A",
         "status": "draft",
         "title": "Module A"
+      },
+      {
+        "body": "<br>Module 4.19 \u00d7 2.4 \u00d7 2.8 m; dry 1 t, operating 1 t (skid_layout).",
+        "equipmentId": "FR-K",
+        "status": "draft",
+        "title": "Module K"
       },
       {
         "body": "Designed separately \u2014 the skid gives the interface sheet. Bed <b>55 L</b> (50 kg LMO). Brine <b>450 BV/h</b> = 24.75 m\u00b3/h, EBCT 8 s.<br>Inlet on top and outlet at the bottom on the axis DN80, vent DN25 on top. Design pressure 4 barg; highest on any step 3.61 barg.<br>Envelope \u00d80.53 \u00d7 2.4 m \u2014 assumption until the column drawing. Removable flanged PE100 spools top and bottom; lifted out by two lugs for service only.",
@@ -7769,7 +7822,7 @@ var PLANT_SPEC = {
         "title": "Compressed air S1-\u041a\u041c-1"
       },
       {
-        "body": "Fibox ARCA IEC 806030: PLC, HMI and I/O. Runs every column on its own clock; safe state on loss of power or air \u2014 every valve closed, pumps stopped.",
+        "body": ": PLC, HMI and I/O. Runs every column on its own clock; safe state on loss of power or air \u2014 every valve closed, pumps stopped.",
         "equipmentId": "S1-\u0428\u0423-1",
         "status": "draft",
         "title": "Control cabinet S1-\u0428\u0423-1"
